@@ -13,9 +13,9 @@ const Header = () => {
       <details>
         <summary> Pet </summary>
         <ul>
-          <li> <NavLink to='/pussyService'>Pussy Service</NavLink> </li>
-          <li> <NavLink to='/bathService'>Bath Service</NavLink> </li>
-          <li> <NavLink to='/services'>Trainers</NavLink> </li>
+          <li> <NavLink to='/'>Pussy Service</NavLink> </li>
+          <li> <NavLink to='/'>Bath Service</NavLink> </li>
+          <li> <NavLink to='/'>Trainers</NavLink> </li>
         </ul>
       </details>
     </li>

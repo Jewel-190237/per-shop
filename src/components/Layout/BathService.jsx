@@ -51,6 +51,169 @@ const BathService = () => {
                     <img className='w-1/2 md:w-4/5' src={cutePussy} alt="" />
                 </div>
             </div>
+            <div>
+                <div className='text-center md:mt-20'>
+                    <h3 className='text-2xl font-extrabold mb-2 text-black'>Bath Services</h3>
+                    <p className='max-w-lg mx-auto'>Designed so animals can relax & indulge in pet stylists, run around our exercise yards, make new friends in doggy daycare, or simply spend hours in our dog.</p>
+                </div>
+                <p className='mt-10 font-bold mb-4'>Showing 1-9 of 846 results</p>
+            </div>
+
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+                <div className="card card-compact bg-base-100 shadow-2xl mb-4">
+                    <figure className='relative'>
+                        <img src={cardCat} />
+                        <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
+                    </figure>
+                    <div className="card-body mb-0 pb-0">
+                        <h2 className="card-title text-2xl font-extrabold">American Water Spaniel</h2>
+                        <p className=''>Meal/Female available 15 weeks old</p>
+                    </div>
+                    <div className="w-11/12 mx-auto h-0.5 bg-slate-600">
+                        <br />
+                    </div>
+                    <div className='card-body'>
+                        <p>664522 Spring Creek Montrose, <br />
+                            CO 8542</p>
+                    </div>
+                </div>
+                <div className="card card-compact bg-base-100 shadow-2xl mb-4">
+                    <figure className='relative'>
+                        <img src={cardCat} />
+                        <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
+                    </figure>
+                    <div className="card-body mb-0 pb-0">
+                        <h2 className="card-title text-2xl font-extrabold">American Water Spaniel</h2>
+                        <p className=''>Meal/Female available 15 weeks old</p>
+                    </div>
+                    <div className="w-11/12 mx-auto h-0.5 bg-slate-600">
+                        <br />
+                    </div>
+                    <div className='card-body'>
+                        <p>664522 Spring Creek Montrose, <br />
+                            CO 8542</p>
+                    </div>
+                </div>
+                <div className="card card-compact bg-base-100 shadow-2xl mb-4">
+                    <figure className='relative'>
+                        <img src={cardCat} />
+                        <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
+                    </figure>
+                    <div className="card-body mb-0 pb-0">
+                        <h2 className="card-title text-2xl font-extrabold">American Water Spaniel</h2>
+                        <p className=''>Meal/Female available 15 weeks old</p>
+                    </div>
+                    <div className="w-11/12 mx-auto h-0.5 bg-slate-600">
+                        <br />
+                    </div>
+                    <div className='card-body'>
+                        <p>664522 Spring Creek Montrose, <br />
+                            CO 8542</p>
+                    </div>
+                </div>
+                <div className="card card-compact bg-base-100 shadow-2xl mb-4">
+                    <figure className='relative'>
+                        <img src={cardCat} />
+                        <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
+                    </figure>
+                    <div className="card-body mb-0 pb-0">
+                        <h2 className="card-title text-2xl font-extrabold">American Water Spaniel</h2>
+                        <p className=''>Meal/Female available 15 weeks old</p>
+                    </div>
+                    <div className="w-11/12 mx-auto h-0.5 bg-slate-600">
+                        <br />
+                    </div>
+                    <div className='card-body'>
+                        <p>664522 Spring Creek Montrose, <br />
+                            CO 8542</p>
+                    </div>
+                </div>
+                <div className="card card-compact bg-base-100 shadow-2xl mb-4">
+                    <figure className='relative'>
+                        <img src={cardCat} />
+                        <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
+                    </figure>
+                    <div className="card-body mb-0 pb-0">
+                        <h2 className="card-title text-2xl font-extrabold">American Water Spaniel</h2>
+                        <p className=''>Meal/Female available 15 weeks old</p>
+                    </div>
+                    <div className="w-11/12 mx-auto h-0.5 bg-slate-600">
+                        <br />
+                    </div>
+                    <div className='card-body'>
+                        <p>664522 Spring Creek Montrose, <br />
+                            CO 8542</p>
+                    </div>
+                </div>
+                <div className="card card-compact bg-base-100 shadow-2xl mb-4">
+                    <figure className='relative'>
+                        <img src={cardCat} />
+                        <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
+                    </figure>
+                    <div className="card-body mb-0 pb-0">
+                        <h2 className="card-title text-2xl font-extrabold">American Water Spaniel</h2>
+                        <p className=''>Meal/Female available 15 weeks old</p>
+                    </div>
+                    <div className="w-11/12 mx-auto h-0.5 bg-slate-600">
+                        <br />
+                    </div>
+                    <div className='card-body'>
+                        <p>664522 Spring Creek Montrose, <br />
+                            CO 8542</p>
+                    </div>
+                </div>
+                <div className="card card-compact bg-base-100 shadow-2xl mb-4">
+                    <figure className='relative'>
+                        <img src={cardCat} />
+                        <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
+                    </figure>
+                    <div className="card-body mb-0 pb-0">
+                        <h2 className="card-title text-2xl font-extrabold">American Water Spaniel</h2>
+                        <p className=''>Meal/Female available 15 weeks old</p>
+                    </div>
+                    <div className="w-11/12 mx-auto h-0.5 bg-slate-600">
+                        <br />
+                    </div>
+                    <div className='card-body'>
+                        <p>664522 Spring Creek Montrose, <br />
+                            CO 8542</p>
+                    </div>
+                </div>
+                <div className="card card-compact bg-base-100 shadow-2xl mb-4">
+                    <figure className='relative'>
+                        <img src={cardCat} />
+                        <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
+                    </figure>
+                    <div className="card-body mb-0 pb-0">
+                        <h2 className="card-title text-2xl font-extrabold">American Water Spaniel</h2>
+                        <p className=''>Meal/Female available 15 weeks old</p>
+                    </div>
+                    <div className="w-11/12 mx-auto h-0.5 bg-slate-600">
+                        <br />
+                    </div>
+                    <div className='card-body'>
+                        <p>664522 Spring Creek Montrose, <br />
+                            CO 8542</p>
+                    </div>
+                </div>
+                <div className="card card-compact bg-base-100 shadow-2xl mb-4">
+                    <figure className='relative'>
+                        <img src={cardCat} />
+                        <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
+                    </figure>
+                    <div className="card-body mb-0 pb-0">
+                        <h2 className="card-title text-2xl font-extrabold">American Water Spaniel</h2>
+                        <p className=''>Meal/Female available 15 weeks old</p>
+                    </div>
+                    <div className="w-11/12 mx-auto h-0.5 bg-slate-600">
+                        <br />
+                    </div>
+                    <div className='card-body'>
+                        <p>664522 Spring Creek Montrose, <br />
+                            CO 8542</p>
+                    </div>
+                </div>
+            </div>
         </section>
     );
 };
