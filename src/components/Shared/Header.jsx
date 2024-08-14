@@ -9,10 +9,28 @@ import user from '../../assets/image/user.png'
 const Header = () => {
   const navLinks = <>
     <li> <NavLink to='/'>Home</NavLink> </li>
-    <li> <NavLink to='/pets'>Pet</NavLink> </li>
-    <li> <NavLink to='/services'>Service</NavLink> </li>
+    <li>
+      <details>
+        <summary> Pet </summary>
+        <ul>
+          <li> <NavLink to='/pussyService'>Pussy Service</NavLink> </li>
+          <li> <NavLink to='/services'>Bath Service</NavLink> </li>
+          <li> <NavLink to='/services'>Trainers</NavLink> </li>
+        </ul>
+      </details>
+    </li>
+    <li>
+      <details>
+        <summary> Service </summary>
+        <ul>
+          <li> <NavLink to='/pussyService'>Pussy Service</NavLink> </li>
+          <li> <NavLink to='/services'>Bath Service</NavLink> </li>
+          <li> <NavLink to='/services'>Trainers</NavLink> </li>
+        </ul>
+      </details>
+    </li>
     <li> <NavLink to='/products'>Products</NavLink> </li>
-    <li className='outline outline-[#FF5C2C] outline-1 rounded-sm'> <NavLink to='/'><span className='text-[#FF5C2C]'>become a seller</span></NavLink> </li>
+    <li className='outline outline-[#FF5C2C] outline-1 rounded-sm bg-white'> <NavLink to='/'><span className='text-[#FF5C2C]'>become a seller</span></NavLink> </li>
   </>
 
   const navLinks1 = <>

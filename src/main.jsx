@@ -11,6 +11,7 @@ import Home from './components/Home/Home';
 import Login from './components/Authentication/Login/Login';
 import SignUp from './components/Authentication/SignUp/SignUp';
 import AuthProvider from './components/Provider/AuthProvider';
+import PussyService from './components/Layout/PussyService';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>
+      },
+      {
+        path: '/pussyService',
+        element: <PussyService></PussyService>
       },
       {
         path: '/login',

@@ -45,8 +45,8 @@ const Health = () => {
                         <br />
                     </div>
                     <img className='absolute top-4 md:-bottom-32 left-36 md:left-28 w-2/5 md:w-2/3' src={fwd} alt="" />
-                    <img className='absolute hidden md:flex -top-1 -right-14' src={eff1} alt="" />
-                            <img className='absolute hidden md:flex top-52 -left-4 rotate-180' src={eff2} alt="" />
+                    <img className='absolute hidden md:flex -top-1 -right-8' src={eff1} alt="" />
+                    <img className='absolute hidden md:flex top-52 -left-4 rotate-180' src={eff2} alt="" />
                 </div>
             </div>
         </section>
