@@ -12,6 +12,7 @@ import Login from './components/Authentication/Login/Login';
 import SignUp from './components/Authentication/SignUp/SignUp';
 import AuthProvider from './components/Provider/AuthProvider';
 import PussyService from './components/Layout/PussyService';
+import BathService from './components/Layout/BathService';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: '/pussyService',
         element: <PussyService></PussyService>
+      },
+      {
+        path: '/bathService',
+        element: <BathService></BathService>
       },
       {
         path: '/login',

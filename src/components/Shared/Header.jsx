@@ -14,7 +14,7 @@ const Header = () => {
         <summary> Pet </summary>
         <ul>
           <li> <NavLink to='/pussyService'>Pussy Service</NavLink> </li>
-          <li> <NavLink to='/services'>Bath Service</NavLink> </li>
+          <li> <NavLink to='/bathService'>Bath Service</NavLink> </li>
           <li> <NavLink to='/services'>Trainers</NavLink> </li>
         </ul>
       </details>
@@ -24,7 +24,7 @@ const Header = () => {
         <summary> Service </summary>
         <ul>
           <li> <NavLink to='/pussyService'>Pussy Service</NavLink> </li>
-          <li> <NavLink to='/services'>Bath Service</NavLink> </li>
+          <li> <NavLink to='/bathService'>Bath Service</NavLink> </li>
           <li> <NavLink to='/services'>Trainers</NavLink> </li>
         </ul>
       </details>
@@ -44,7 +44,7 @@ const Header = () => {
     <li className="btn mt-1 rounded-3xl bg-[#FF5C2C] text-white font-bold"> <img src={watchIcon} alt="" /> how it works</li>
   </>
   return (
-    <div className="navbar bg-base-100 max-w-6xl mx-auto">
+    <div className="navbar max-w-6xl mx-auto">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
