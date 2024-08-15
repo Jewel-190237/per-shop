@@ -1,16 +1,26 @@
 import React from 'react';
 import cutePussy from '../../assets/image/cute-puppy.png'
 import cardCat from '../../assets/image/cardCat.png'
+import ps1 from '../../assets/image/ps1.png'
+import ps2 from '../../assets/image/ps2.png'
+import ps3 from '../../assets/image/ps3.png'
+import ps4 from '../../assets/image/ps4.png'
+import ps5 from '../../assets/image/ps5.png'
+import ps6 from '../../assets/image/ps6.png'
+import ps7 from '../../assets/image/ps7.png'
+import ps8 from '../../assets/image/ps8.png'
+import ps9 from '../../assets/image/ps9.png'
+
 const BathService = () => {
     return (
-        <section>
+        <section className='max-w-6xl mx-auto'>
             <div className='relative bg-[rgb(97,213,223)] w-full mt-40 md:mt-80 rounded-lg'>
-                <h3 className='font-bold text-2xl pt-8 md:pt-10 w-3/5 text-center mx-auto'>Our Bully Mall dog sellers  lists puppies from AKC registered litters so you can choose a breeder with confidence </h3>
+                <h3 className='font-bold text-2xl pt-8 md:pt-10 w-3/5 text-center mx-auto'>Says AKC Instend of Bully Mall </h3>
                 <p className='text-center mx-auto text-[#545B61]'>I’m Looking for</p>
 
                 <div className='flex flex-col md:flex-row justify-center items-center'>
                     <div className='flex-1'>
-                        <div className='flex justify-stretch items-center'>
+                        <div className='flex justify-center items-center'>
                             <div className=''>
                                 <select className='w-full md:w-44 lg:w-72 p-3 mr-0 md:mr-3 rounded-md m-3' value='lllll' name="Brand" id="ppp"> Pe
                                     <option value="a">Brand</option>
@@ -24,17 +34,6 @@ const BathService = () => {
                                     <option value="a">Female</option>
                                 </select>
                             </div>
-                        </div>
-                    </div>
-                    <div className='flex-1'>
-                        <div className='flex justify-stretch items-center'>
-                            <div className=''>
-                                <select className='w-full md:w-44 lg:w-72 p-3 mr-0 md:mr-3 rounded-md m-3' value='lllll' name="Brand" id="ppp"> Pe
-                                    <option value="a">Brand</option>
-                                    <option value="a">b</option>
-                                    <option value="a">c</option>
-                                </select>
-                            </div>
                             <div className=''>
                                 <select className='w-full md:w-36 lg:w-52 p-3 rounded-md mr-0 md:mr-3 ml-8' name="" id="">
                                     <option value="a">Male</option>
@@ -43,11 +42,12 @@ const BathService = () => {
                             </div>
                         </div>
                     </div>
+                    
                 </div>
                 <div className='text-center'>
                     <li className=" outline-none btn mt-1 mb-4 rounded-3xl bg-[#FF5C2C] text-white font-bold text-center"> Find Pussy</li>
                 </div>
-                <div className='absolute -top-28 md:-top-72 lg:-top-72 left-20 lg:left-96 '>
+                <div className='absolute -top-28 md:-top-72 lg:-top-72 left-32 lg:left-96'>
                     <img className='w-1/2 md:w-4/5' src={cutePussy} alt="" />
                 </div>
             </div>
@@ -62,7 +62,7 @@ const BathService = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
                 <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                     <figure className='relative'>
-                        <img src={cardCat} />
+                        <img src={ps1} />
                         <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
                     </figure>
                     <div className="card-body mb-0 pb-0">
@@ -79,7 +79,7 @@ const BathService = () => {
                 </div>
                 <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                     <figure className='relative'>
-                        <img src={cardCat} />
+                        <img src={ps2} />
                         <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
                     </figure>
                     <div className="card-body mb-0 pb-0">
@@ -96,7 +96,7 @@ const BathService = () => {
                 </div>
                 <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                     <figure className='relative'>
-                        <img src={cardCat} />
+                        <img src={ps3} />
                         <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
                     </figure>
                     <div className="card-body mb-0 pb-0">
@@ -113,7 +113,7 @@ const BathService = () => {
                 </div>
                 <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                     <figure className='relative'>
-                        <img src={cardCat} />
+                        <img src={ps4} />
                         <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
                     </figure>
                     <div className="card-body mb-0 pb-0">
@@ -130,7 +130,7 @@ const BathService = () => {
                 </div>
                 <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                     <figure className='relative'>
-                        <img src={cardCat} />
+                        <img src={ps5} />
                         <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
                     </figure>
                     <div className="card-body mb-0 pb-0">
@@ -147,7 +147,7 @@ const BathService = () => {
                 </div>
                 <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                     <figure className='relative'>
-                        <img src={cardCat} />
+                        <img src={ps6} />
                         <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
                     </figure>
                     <div className="card-body mb-0 pb-0">
@@ -164,7 +164,7 @@ const BathService = () => {
                 </div>
                 <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                     <figure className='relative'>
-                        <img src={cardCat} />
+                        <img src={ps7} />
                         <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
                     </figure>
                     <div className="card-body mb-0 pb-0">
@@ -181,7 +181,7 @@ const BathService = () => {
                 </div>
                 <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                     <figure className='relative'>
-                        <img src={cardCat} />
+                        <img src={ps8} />
                         <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
                     </figure>
                     <div className="card-body mb-0 pb-0">
@@ -198,7 +198,7 @@ const BathService = () => {
                 </div>
                 <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                     <figure className='relative'>
-                        <img src={cardCat} />
+                        <img src={ps9} />
                         <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
                     </figure>
                     <div className="card-body mb-0 pb-0">

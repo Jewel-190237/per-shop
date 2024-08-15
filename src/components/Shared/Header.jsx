@@ -30,7 +30,7 @@ const Header = () => {
       </details>
     </li>
     <li> <NavLink to='/products'>Products</NavLink> </li>
-    <li className='outline outline-[#FF5C2C] outline-1 rounded-sm bg-white'> <NavLink to='/'><span className='text-[#FF5C2C]'>become a seller</span></NavLink> </li>
+    <li className='outline outline-[#FF5C2C] outline-1 rounded-sm bg-white'> <NavLink to='/becomeASeller'><span className='text-[#FF5C2C]'>become a seller</span></NavLink> </li>
   </>
 
   const navLinks1 = <>
