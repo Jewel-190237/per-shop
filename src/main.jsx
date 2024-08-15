@@ -14,6 +14,7 @@ import AuthProvider from './components/Provider/AuthProvider';
 import PussyService from './components/Layout/PussyService';
 import BathService from './components/Layout/BathService';
 import Trainers from './components/Layout/Trainers';
+import Contact from './components/Layout/Contact';
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: '/trainers',
         element: <Trainers></Trainers>
+      },
+      {
+        path: '/contact',
+        element: <Contact></Contact>
       },
       {
         path: '/login',
