@@ -15,7 +15,7 @@ import PussyService from './components/Layout/PussyService';
 import BathService from './components/Layout/BathService';
 import Trainers from './components/Layout/Trainers';
 import Contact from './components/Layout/Contact';
-import SingleShop from './components/Layout/SingleShop';
+import SingleShop from './components/Layout/singleShop/SingleShop';
 
 const router = createBrowserRouter([
   {
