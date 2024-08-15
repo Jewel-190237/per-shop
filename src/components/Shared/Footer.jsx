@@ -41,40 +41,41 @@ const Footer = () => {
             </div>
             <div className='pt-10 max-w-6xl mx-auto'>
                 {/* <div className='flex items-center w-full'> */}
-                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center xl:gap-[150px] gap-10'>
-                        <div className='mb-10 lg:mb-1 md:mb-5'>
-                            <a className='text-xl font-bold' href=""> Service</a>
-                            <div className='flex flex-col mt-3'>
-                                <a href="">Find Puppy  </a>
-                                <a href="">Find Groomer</a>
-                                <a href="">Find Trainer</a>
-                            </div>
-                        </div>
-                        <div className='mb-10 lg:mb-1 md:mb-5'>
-                            <a className='text-xl font-bold' href=""> Service</a>
-                            <div className='flex flex-col mt-3'>
-                                <a href="">Find Puppy  </a>
-                                <a href="">Find Groomer</a>
-                                <a href="">Find Trainer</a>
-                            </div>
-                        </div>
-                        <div className='mb-10 lg:mb-1 md:mb-5'>
-                            <a className='text-xl font-bold' href=""> Service</a>
-                            <div className='flex flex-col mt-3'>
-                                <a href="">Find Puppy  </a>
-                                <a href="">Find Groomer</a>
-                                <a href="">Find Trainer</a>
-                            </div>
-                        </div>
-                        <div className='mb-10 lg:mb-1 md:mb-5'>
-                            <a className='text-xl font-bold' href=""> Polices & Support</a>
-                            <div className='flex flex-col mt-3'>
-                                <a href="">Find Puppy  </a>
-                                <a href="">Find Groomer</a>
-                                <a href="/contact">Contact</a>
-                            </div>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center xl:gap-[150px] gap-10'>
+                    <div className='mb-10 lg:mb-1 md:mb-5'>
+                        <a className='text-xl font-bold' href=""> Service</a>
+                        <div className='flex flex-col mt-3'>
+                            <a href="">Find Puppy  </a>
+                            <a href="">Find Groomer</a>
+                            <a href="">Find Trainer</a>
                         </div>
                     </div>
+                    <div className='mb-10 lg:mb-1 md:mb-5'>
+                        <a className='text-xl font-bold' href=""> Service</a>
+                        <div className='flex flex-col mt-3'>
+                            <a href="">Find Puppy  </a>
+                            <a href="">Find Groomer</a>
+                            <a href="">Find Trainer</a>
+                        </div>
+                    </div>
+                    <div className='mb-10 lg:mb-1 md:mb-5'>
+                        <a className='text-xl font-bold' href=""> Service</a>
+                        <div className='flex flex-col mt-3'>
+                            <a href="">Find Puppy  </a>
+                            <a href="">Find Groomer</a>
+                            <a href="">Find Trainer</a>
+                        </div>
+                    </div>
+                    <div className='mb-10 lg:mb-1 md:mb-5'>
+                        <a className='text-xl font-bold' href=""> Polices & Support</a>
+                        <div className='flex flex-col mt-3'>
+                            <a href="">Find Puppy  </a>
+        
+                            <a href="/singleShop">Single Shop</a>
+                            <a href="/contact">Contact</a>
+                        </div>
+                    </div>
+                </div>
                 {/* </div> */}
                 <div className="divider divide-white"></div>
                 <footer className="footer footer-center text-base-content pb-6">
