@@ -1,5 +1,7 @@
 import homeIcon from '../../../assets/image/homeIcon.png'
 import pussyBanner from '../../../assets/image/pussyCuteBanner.png'
+import sliderPicture from '../../../assets/image/SliderPictures.png'
+import trainer from '../../../assets/image/trainer.png'
 
 
 import React, { useRef, useState } from 'react';
@@ -20,7 +22,7 @@ import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
 
 const SingleShop = () => {
 
-    const [thumbsSwiper, setThumbsSwiper] = useState('0');
+    const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
     return (
         <section>
@@ -38,8 +40,8 @@ const SingleShop = () => {
             </div>
 
             <div className='max-w-6xl mx-auto mt-32'>
-                <div className='flex flex-col md:flex-row items-center'>
-                    <div className='flex-1'>
+                <div className='grid grid-cols-1 md:grid-cols-3 items-center gap-16'>
+                    <div className='col-span-1 md:col-span-2'>
 
                         <Swiper
                             style={{
@@ -53,81 +55,121 @@ const SingleShop = () => {
                             className="mySwiper2"
                         >
                             <SwiperSlide>
-                                <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                                <img src={sliderPicture} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                                <img src={sliderPicture} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                                <img src={sliderPicture} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                                <img src={sliderPicture} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                                <img src={sliderPicture} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                                <img src={sliderPicture} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                                <img src={sliderPicture} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+                                <img src={sliderPicture} />
                             </SwiperSlide>
-                            <SwiperSlide>
-                                <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
-                            </SwiperSlide>
+
+
                         </Swiper>
                         <Swiper
-                            onSwiper={setThumbsSwiper}
+                            onClick={setThumbsSwiper}
                             spaceBetween={10}
-                            slidesPerView={4}
+                            slidesPerView={3}
                             freeMode={true}
                             watchSlidesProgress={true}
                             modules={[FreeMode, Navigation, Thumbs]}
                             className="mySwiper"
                         >
+
                             <SwiperSlide>
-                                <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                                <img src={sliderPicture} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                                <img src={sliderPicture} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                                <img src={sliderPicture} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                                <img src={sliderPicture} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                                <img src={sliderPicture} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                                <img src={sliderPicture} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                                <img src={sliderPicture} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
+                                <img src={sliderPicture} />
                             </SwiperSlide>
                         </Swiper>
 
                     </div>
-                    <div className='flex-1'>
-
+                    <div className='shadow-xl p-6 rounded-lg'>
+                        <div className='flex justify-between'>
+                            <a className='font-bold text-black text-xl' href="">Basic</a>
+                            <a className='font-bold text-black text-xl' href="">Standard</a>
+                            <a className='font-bold text-black text-xl' href="">Premium</a>
+                        </div>
+                        <div className='flex justify-between mt-8'>
+                            <p className='font-bold'>Startups Pack</p>
+                            <p className='font-bold'>$30</p>
+                        </div>
+                        <div className='mt-8'>
+                            <h4 className='font-bold '>Basic Training - Canine Good Citizen</h4>
+                        </div>
+                        <div className='mt-4'>
+                            <ul >
+                                <li> <input type="radio" name="a" id="" /> Basic Training - Canine Good Citizen</li>
+                                <li> <input type="radio" name="a" id="" /> Basic Training - Advanced CGC</li>
+                                <li> <input type="radio" name="a" id="" /> Basic Training - Urban CGC</li>
+                            </ul>
+                        </div>
+                        <div className='text-center mt-8'>
+                            <li className="btn mt-1 w-full rounded-3xl bg-[#FF5C2C] text-white font-bold"> Order Now</li>
+                        </div>
+                        <div className='text-center mt-8'>
+                            <li className="btn mt-1 w-full bg-none rounded-3xl border border-[#FF5C2C] text-black font-bold"> Contact Trainer</li>
+                        </div>
                     </div>
+                </div>
+
+                <div className='flex flex-col justify-center mt-20'>
+                    <h4 className='font-bold text-black font-xl mx-auto'>About This Services</h4>
+                    <p className='mt-4 w-2/5 text-[#545B61] mx-auto text-center'>We are a reward-based training company that offers private in-home training, as well as, group classes at The Pooch Palace in the beautiful, Alabama town of Cullman. For more information about us, visit our website, NamasteDogTraining.com, or find us on Facebook, Instagram, Tik Tok, and Youtube! </p>
+
+                    <h4 className='font-bold text-black font-xl mx-auto mt-8'>What I train</h4>
+
+                    <div className='mt-8  mx-auto'>
+                        <ul className='mx-auto' >
+                            <li > <input type="radio" name="a" id="" /> Basic Training - Canine Good Citizen</li>
+                            <li className='mt-3'> <input type="radio" name="a" id="" /> Basic Training - Advanced CGC</li>
+                            <li className='mt-3'> <input type="radio" name="a" id="" /> Basic Training - Urban CGC</li>
+                        </ul>
+                    </div>
+
+                    <h4 className='font-bold text-black font-xl mx-auto mt-8'>About This Trainer</h4>
+
+
+                    <div className="relative indicator mx-auto mb-8">
+                        <span className="absolute badge-primary rounded-full p-2 bottom-5 -right-2">top</span>
+                        <div className="bg-base-300 grid h-32 w-32 place-items-center rounded-full"><img src={trainer} alt="" />
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
