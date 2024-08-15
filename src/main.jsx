@@ -13,6 +13,7 @@ import SignUp from './components/Authentication/SignUp/SignUp';
 import AuthProvider from './components/Provider/AuthProvider';
 import PussyService from './components/Layout/PussyService';
 import BathService from './components/Layout/BathService';
+import Trainers from './components/Layout/Trainers';
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: '/bathService',
         element: <BathService></BathService>
+      },
+      {
+        path: '/trainers',
+        element: <Trainers></Trainers>
       },
       {
         path: '/login',
