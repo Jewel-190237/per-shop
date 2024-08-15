@@ -4,6 +4,14 @@ import cardCat from '../../assets/image/cardCat.png'
 import expDog from '../../assets/image/expDog.png'
 import expDog2 from '../../assets/image/dog2.png'
 import expDog3 from '../../assets/image/dog3.png'
+import bc2 from '../../assets/image/bc2.png'
+import bc3 from '../../assets/image/bc3.png'
+import bc4 from '../../assets/image/bc4.png'
+import bc5 from '../../assets/image/bc5.png'
+import bc6 from '../../assets/image/bc6.png'
+import bc7 from '../../assets/image/bc7.png'
+import bc8 from '../../assets/image/bc2.png'
+import bc9 from '../../assets/image/bc9.png'
 
 const PussyService = () => {
     return (
@@ -84,7 +92,7 @@ const PussyService = () => {
                 </div>
                 <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                     <figure className='relative'>
-                        <img src={cardCat} />
+                        <img src={bc2} />
                         <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
                     </figure>
                     <div className="card-body mb-0 pb-0">
@@ -101,7 +109,7 @@ const PussyService = () => {
                 </div>
                 <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                     <figure className='relative'>
-                        <img src={cardCat} />
+                        <img src={bc3} />
                         <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
                     </figure>
                     <div className="card-body mb-0 pb-0">
@@ -118,7 +126,7 @@ const PussyService = () => {
                 </div>
                 <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                     <figure className='relative'>
-                        <img src={cardCat} />
+                        <img src={bc4} />
                         <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
                     </figure>
                     <div className="card-body mb-0 pb-0">
@@ -135,7 +143,7 @@ const PussyService = () => {
                 </div>
                 <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                     <figure className='relative'>
-                        <img src={cardCat} />
+                        <img src={bc5} />
                         <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
                     </figure>
                     <div className="card-body mb-0 pb-0">
@@ -152,7 +160,7 @@ const PussyService = () => {
                 </div>
                 <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                     <figure className='relative'>
-                        <img src={cardCat} />
+                        <img src={bc6} />
                         <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
                     </figure>
                     <div className="card-body mb-0 pb-0">
@@ -169,7 +177,7 @@ const PussyService = () => {
                 </div>
                 <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                     <figure className='relative'>
-                        <img src={cardCat} />
+                        <img src={bc7} />
                         <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
                     </figure>
                     <div className="card-body mb-0 pb-0">
@@ -186,7 +194,7 @@ const PussyService = () => {
                 </div>
                 <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                     <figure className='relative'>
-                        <img src={cardCat} />
+                        <img src={bc8} />
                         <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
                     </figure>
                     <div className="card-body mb-0 pb-0">
@@ -203,7 +211,7 @@ const PussyService = () => {
                 </div>
                 <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                     <figure className='relative'>
-                        <img src={cardCat} />
+                        <img src={bc9} />
                         <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
                     </figure>
                     <div className="card-body mb-0 pb-0">
