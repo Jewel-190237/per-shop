@@ -169,7 +169,26 @@ const SingleShop = () => {
                         <div className="bg-base-300 grid h-32 w-32 place-items-center rounded-full"><img src={trainer} alt="" />
                         </div>
                     </div>
+                    <h4 className='font-bold text-black font-xl mx-auto mt-8'>Namaste Dog Training</h4>
 
+                    <h4 className='font-bold text-black font-xl mx-auto mt-4'> Trainer</h4>
+
+                    <div className="rating rating-md mx-auto mt-4">
+                        <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" />
+                        <input
+                            type="radio"
+                            name="rating-7"
+                            className="mask mask-star-2 bg-orange-400"
+                            defaultChecked />
+                        <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" defaultChecked />
+                        <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" defaultChecked />
+                        <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" defaultChecked />
+                        <p>5 (125 Reviews)</p>
+                    </div>
+
+                    <div className='mx-auto mt-4'>
+                        <button className='btn btn-outline bg-blue-900 text-white rounded-3xl'>Contact me</button>
+                    </div>
                 </div>
 
             </div>
