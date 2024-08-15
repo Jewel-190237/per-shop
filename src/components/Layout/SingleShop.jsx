@@ -1,5 +1,6 @@
 import React from 'react';
-
+import homeIcon from '../../assets/image/homeIcon.png'
+import pussyBanner from '../../assets/image/pussyCuteBanner.png'
 const SingleShop = () => {
     return (
         <section>
@@ -14,6 +15,13 @@ const SingleShop = () => {
                 <div className='absolute right-0 bottom-0'>
                     <img src={pussyBanner} alt="" className='w-64 md:w-full' />
                 </div>
+            </div>
+
+            <div className='max-w-6xl mx-auto mt-32'>
+                <div className='flex flex-col md:flex-row items-center'>
+
+                </div>
+
             </div>
         </section>
     );
