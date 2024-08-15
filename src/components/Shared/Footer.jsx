@@ -71,7 +71,7 @@ const Footer = () => {
                             <div className='flex flex-col mt-3'>
                                 <a href="">Find Puppy  </a>
                                 <a href="">Find Groomer</a>
-                                <a href="">Find Trainer</a>
+                                <a href="/contact">Contact</a>
                             </div>
                         </div>
                     </div>
