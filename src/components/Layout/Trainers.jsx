@@ -1,5 +1,14 @@
 import cutePussy from '../../assets/image/cute-puppy.png'
 import cardCat from '../../assets/image/cardCat.png'
+import t1 from '../../assets/image/t1.png'
+import t2 from '../../assets/image/t2.png'
+import t3 from '../../assets/image/t3.png'
+import t4 from '../../assets/image/t4.png'
+import t5 from '../../assets/image/t5.png'
+import t6 from '../../assets/image/t6.png'
+import t7 from '../../assets/image/t7.png'
+import t8 from '../../assets/image/t8.png'
+import t9 from '../../assets/image/t9.png'
 const Trainers = () => {
     return (
         <section className='max-w-6xl mx-auto'>
@@ -51,7 +60,7 @@ const Trainers = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
                 <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                     <figure className='relative'>
-                        <img src={cardCat} />
+                        <img src={t1} />
                         <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
                     </figure>
                     <div className="card-body mb-0 pb-0">
@@ -68,7 +77,7 @@ const Trainers = () => {
                 </div>
                 <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                     <figure className='relative'>
-                        <img src={cardCat} />
+                        <img src={t2} />
                         <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
                     </figure>
                     <div className="card-body mb-0 pb-0">
@@ -85,7 +94,7 @@ const Trainers = () => {
                 </div>
                 <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                     <figure className='relative'>
-                        <img src={cardCat} />
+                        <img src={t3} />
                         <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
                     </figure>
                     <div className="card-body mb-0 pb-0">
@@ -102,7 +111,7 @@ const Trainers = () => {
                 </div>
                 <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                     <figure className='relative'>
-                        <img src={cardCat} />
+                        <img src={t4} />
                         <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
                     </figure>
                     <div className="card-body mb-0 pb-0">
@@ -119,7 +128,7 @@ const Trainers = () => {
                 </div>
                 <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                     <figure className='relative'>
-                        <img src={cardCat} />
+                        <img src={t5} />
                         <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
                     </figure>
                     <div className="card-body mb-0 pb-0">
@@ -136,7 +145,7 @@ const Trainers = () => {
                 </div>
                 <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                     <figure className='relative'>
-                        <img src={cardCat} />
+                        <img src={t6} />
                         <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
                     </figure>
                     <div className="card-body mb-0 pb-0">
@@ -153,7 +162,7 @@ const Trainers = () => {
                 </div>
                 <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                     <figure className='relative'>
-                        <img src={cardCat} />
+                        <img src={t7} />
                         <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
                     </figure>
                     <div className="card-body mb-0 pb-0">
@@ -170,7 +179,7 @@ const Trainers = () => {
                 </div>
                 <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                     <figure className='relative'>
-                        <img src={cardCat} />
+                        <img src={t8} />
                         <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
                     </figure>
                     <div className="card-body mb-0 pb-0">
@@ -187,7 +196,7 @@ const Trainers = () => {
                 </div>
                 <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                     <figure className='relative'>
-                        <img src={cardCat} />
+                        <img src={t9} />
                         <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
                     </figure>
                     <div className="card-body mb-0 pb-0">
