@@ -1,68 +1,60 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import App from './App.jsx'
 import './index.css'
-
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Root from './Root/Root';
-import Home from './components/Home/Home';
-import Login from './components/Authentication/Login/Login';
-import SignUp from './components/Authentication/SignUp/SignUp';
-import AuthProvider from './components/Provider/AuthProvider';
-import PussyService from './components/Layout/PussyService';
-import BathService from './components/Layout/BathService';
-import Trainers from './components/Layout/Trainers';
-import Contact from './components/Layout/Contact';
-import SingleShop from './components/Layout/singleShop/SingleShop';
-
+import Root from './Root/Root.jsx';
+import HomePage from './Components/Home/HomePage/HomePage.jsx';
+import Product from './Components/Product/Product.jsx';
+import ServicesPupies from './Components/Product/ServicesPupies.jsx';
+import PuppiesProduct from './Components/Product/PuppiesProduct/PuppiesProduct.jsx';
+import OurShop from './Components/OurShop/OurShop.jsx';
+import Appoinment from './Components/Appointment/Appoinment.jsx';
+import AboutMe from './Components/Appointment/AboutMe.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root></Root>,
+    element: <Root />,
+    // errorElement: <ErrorPage />,
     children: [
       {
-        path: '/',
-        element: <Home></Home>
+        path: "/",
+        element: <HomePage />,
       },
       {
-        path: '/pussyService',
-        element: <PussyService></PussyService>
+        path: "/findPuppy",
+        element: <Product />,
       },
       {
-        path: '/bathService',
-        element: <BathService></BathService>
+        path: "/appointment",
+        element: <Appoinment/>,
       },
       {
-        path: '/trainers',
-        element: <Trainers></Trainers>
+        path: "/appointmentMe",
+        element: <AboutMe/>,
       },
       {
-        path: '/contact',
-        element: <Contact></Contact>
+        path: "/ourShop",
+        element: <OurShop />,
+      },
+    
+      {
+        path: "/services",
+        element: <ServicesPupies></ServicesPupies>,
       },
       {
-        path: '/singleShop',
-        element: <SingleShop></SingleShop>
+        path: "/puppyProducts",
+        element: <PuppiesProduct></PuppiesProduct>,
       },
-      {
-        path: '/login',
-        element: <Login></Login>
-      },
-      {
-        path: '/signUp',
-        element: <SignUp></SignUp>
-      }
     ],
   },
 ]);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <AuthProvider>
-      <RouterProvider router={router}>
-      </RouterProvider>
-    </AuthProvider>
+     <RouterProvider router={router} />
   </StrictMode>,
 )
