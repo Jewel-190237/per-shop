@@ -1,7 +1,10 @@
-import homeIcon from '../../assets/image/singleShop/homeIcon.png'
-import sliderPicture from '../../assets/image/singleShop/SliderPictures.png'
-import pussyBanner from '../../assets/image/singleShop/pussyCuteBanner.png'
-import trainer from '../../assets/image/singleShop/trainer.png'
+import sliderPicture from '../../assets/image/review/SliderPictures.png'
+import trainer from '../../assets/image/review/trainer.png'
+import user from '../../assets/image/review/user.png'
+import rs1 from '../../assets/image/review/rs1.png'
+import rs2 from '../../assets/image/review/rs2.png'
+import rs3 from '../../assets/image/review/rs3.png'
+
 
 
 import React, { useRef, useState } from 'react';
@@ -26,36 +29,23 @@ const Review = () => {
 
     return (
         <section>
-            <div className='bg-[#61D5DF] h-60 w-full mb-20 mt-56 flex justify-between relative'>
-                <div className='ml-4 md:ml-20 flex flex-col items-center justify-center'>
-                    <h1 className='text-[#181818] font-bold text-3xl pl-5'>Our Shop</h1>
-                    <div className='flex space-x-2'>
-                        <img src={homeIcon} alt="" />
-                        <p className='mt-3'>Home /<span className='text-[#FF5C2C]'> Shop</span></p>
-                    </div>
-                </div>
-                <div className='absolute right-0 bottom-0'>
-                    <img src={pussyBanner} alt="" className='w-64 md:w-full' />
-                </div>
-            </div>
-
-            <div className='max-w-6xl mx-auto mt-32'>
+            <div className='max-w-[1320px] mx-auto mt-8'>
                 <div className='grid grid-cols-1 md:grid-cols-3 items-center gap-16'>
                     <div className='col-span-1 md:col-span-2'>
 
                         <Swiper
-                            style={{
-                                '--swiper-navigation-color': '#fff',
-                                '--swiper-pagination-color': '#fff',
-                            }}
-                            spaceBetween={10}
+                            // style={{
+                            //     '--swiper-navigation-color': '#fff',
+                            //     '--swiper-pagination-color': '#fff',
+                            // }}
+                            spaceBetween={2}
                             navigation={true}
                             thumbs={{ swiper: thumbsSwiper }}
                             modules={[FreeMode, Navigation, Thumbs]}
                             className="mySwiper2"
                         >
                             <SwiperSlide>
-                                <img src={sliderPicture} />
+                                <img className='w-full' src={sliderPicture} />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img src={sliderPicture} />
@@ -92,7 +82,7 @@ const Review = () => {
                         >
 
                             <SwiperSlide>
-                                <img src={sliderPicture} />
+                                <img className='w-full' src={sliderPicture} />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img src={sliderPicture} />
@@ -190,31 +180,279 @@ const Review = () => {
                         <button className='btn btn-outline bg-blue-900 text-white rounded-3xl'>Contact me</button>
                     </div>
 
+                    <h4 className='font-extrabold text-black text-xl pl-4 mt-4'>FAQ</h4>
+
                     <div>
-                        <div className="collapse collapse-plus bg-base-200">
+                        <div className="collapse collapse-plus border border-b-[#938683]">
                             <input type="radio" name="my-accordion-3" defaultChecked />
-                            <div className="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                            <div className="collapse-title font-extrabold text-black text-xl">Which package should I purchase?</div>
                             <div className="collapse-content">
-                                <p>hello</p>
+                                <p>yes, you will get print-ready 300 dpi png.</p>
                             </div>
                         </div>
-                        <div className="collapse collapse-plus ">
-                            <input type="radio" name="my-accordion-3" />
-                            <div className="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                        <div className="collapse collapse-plus border border-b-[#938683]">
+                            <input type="radio" name="my-accordion-3" defaultChecked />
+                            <div className="collapse-title font-extrabold text-black text-xl">Which package should I purchase?</div>
                             <div className="collapse-content">
-                                <p>hello</p>
+                                <p>yes, you will get print-ready 300 dpi png.</p>
                             </div>
                         </div>
-                        <div className="collapse collapse-plus bg-base-200">
-                            <input type="radio" name="my-accordion-3" />
-                            <div className="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                        <div className="collapse collapse-plus border border-b-[#938683]">
+                            <input type="radio" name="my-accordion-3" defaultChecked />
+                            <div className="collapse-title font-extrabold text-black text-xl">Which package should I purchase?</div>
                             <div className="collapse-content">
-                                <p>hello</p>
+                                <p>yes, you will get print-ready 300 dpi png.</p>
                             </div>
+                        </div>
+
+                    </div>
+                    <div className='w-3/5 mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-center mt-10'>
+                        <div className='col-span-2 shadow-lg p-4 rounded-lg'>
+                            <div className='flex items-center gap-3'>
+                                <div>
+                                    <div className="rating">
+                                        <input type="radio" name="rating-4" className="mask mask-star bg-orange-400" />
+                                        <input type="radio" name="rating-4" className="mask mask-star bg-orange-400" />
+                                        <input type="radio" name="rating-4" className="mask mask-star bg-orange-400" />
+                                        <input type="radio" name="rating-4" className="mask mask-star bg-orange-400" />
+                                        <input type="radio" name="rating-4" className="mask mask-star bg-orange-400" defaultChecked />
+                                    </div>
+                                </div>
+                                <progress className="progress progress-primary" value={95} max="100"></progress>
+                                <p>123</p>
+                            </div>
+                            <div className='flex items-center gap-3'>
+                                <div>
+                                    <div className="rating">
+                                        <input type="radio" name="rating-3" className="mask mask-star bg-orange-400" />
+                                        <input type="radio" name="rating-3" className="mask mask-star bg-orange-400" />
+                                        <input type="radio" name="rating-3" className="mask mask-star bg-orange-400" />
+                                        <input type="radio" name="rating-3" className="mask mask-star bg-orange-400" defaultChecked />
+                                        <input type="radio" name="rating-3" className="mask mask-star bg-orange-400" />
+                                    </div>
+                                </div>
+                                <progress className="progress progress-primary" value={2} max="100"></progress>
+                                <p>2</p>
+                            </div>
+                            <div className='flex items-center gap-3'>
+                                <div>
+                                    <div className="rating">
+                                        <input type="radio" name="rating-2" className="mask mask-star bg-orange-400" />
+                                        <input type="radio" name="rating-2" className="mask mask-star bg-orange-400" />
+                                        <input type="radio" name="rating-2" className="mask mask-star bg-orange-400" defaultChecked />
+                                        <input type="radio" name="rating-2" className="mask mask-star bg-orange-400" />
+                                        <input type="radio" name="rating-2" className="mask mask-star bg-orange-400" />
+                                    </div>
+                                </div>
+                                <progress className="progress" value={0} max="100"></progress>
+                                <p>0</p>
+                            </div>
+                            <div className='flex items-center gap-3'>
+                                <div>
+                                    <div className="rating">
+                                        <input type="radio" name="rating-1" className="mask mask-star bg-orange-400" />
+                                        <input type="radio" name="rating-1" className="mask mask-star bg-orange-400" defaultChecked />
+                                        <input type="radio" name="rating-1" className="mask mask-star bg-orange-400" />
+                                        <input type="radio" name="rating-1" className="mask mask-star bg-orange-400" />
+                                        <input type="radio" name="rating-1" className="mask mask-star bg-orange-400" />
+                                    </div>
+                                </div>
+                                <progress className="progress" value={0} max="100"></progress>
+                                <p>0</p>
+                            </div>
+                            <div className='flex items-center gap-3'>
+                                <div>
+                                    <div className="rating">
+                                        <input type="radio" name="rating-0" className="mask mask-star bg-orange-400" defaultChecked />
+                                        <input type="radio" name="rating-0" className="mask mask-star bg-orange-400" />
+                                        <input type="radio" name="rating-0" className="mask mask-star bg-orange-400" />
+                                        <input type="radio" name="rating-0" className="mask mask-star bg-orange-400" />
+                                        <input type="radio" name="rating-0" className="mask mask-star bg-orange-400" />
+                                    </div>
+                                </div>
+                                <progress className="progress progress-primary" value={0} max="100"></progress>
+                                <p>0</p>
+                            </div>
+
+                        </div>
+                        <div className='shadow-lg p-4 rounded-lg'>
+                            <h4 className='text-xl font-bold mb-4'>Rating Breakdown</h4>
+                            <div className='flex justify-between '>
+                                <div>
+                                    <p className='mb-4'>communication</p>
+                                </div>
+                                <div className='rating'>
+                                    <input type="radio" className="mask mask-star-2 bg-orange-400 text-3xl" /> <span className='ml-1'>5</span>
+                                </div>
+                            </div>
+                            <div className='flex justify-between '>
+                                <div>
+                                    <p className='mb-4'>Trainer</p>
+                                </div>
+                                <div className='rating'>
+                                    <input type="radio" className="mask mask-star-2 bg-orange-400 text-3xl" /> <span className='ml-1'>5</span>
+                                </div>
+                            </div>
+                            <div className='flex justify-between '>
+                                <div>
+                                    <p className='mb-4'>Puppy service</p>
+                                </div>
+                                <div className='rating'>
+                                    <input type="radio" className="mask mask-star-2 bg-orange-400 text-3xl" /> <span className='ml-1'>5</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div className='mt-20'>
+                            <div className='flex gap-6 items-center'>
+                                <div>
+                                    <img src={user} alt="" />
+                                </div>
+                                <div>
+                                    <h4 className='text-xl font-bold'>nadavshez</h4>
+                                    <p className='text-[#938683]'>Nevada, USA </p>
+                                </div>
+                            </div>
+                            <div className='flex items-center'>
+                                <div className="rating rating-md  mt-4">
+                                    <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" />
+                                    <input
+                                        type="radio"
+                                        name="rating-7"
+                                        className="mask mask-star-2 bg-orange-400"
+                                        defaultChecked />
+                                    <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" defaultChecked />
+                                    <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" defaultChecked />
+                                    <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" defaultChecked />
+                                </div>
+                                <div>
+                                    <p className='ml-3 mt-5'>5 </p>
+                                </div>
+                            </div>
+                            <p className='text-[#938683] mt-4 w-11/12'>Best ui ux designer we hired so far i on fiverr, we are very happy and lucky to meet emon and adding him to our team, thanks to him we are most assure our product we be designed properly and on time as he is very responsible and kind with time schedules.</p>
+                            <h4 className='mt-4 font-bold text-xl'>Purchased: Basic Training - Canine Good Citizen</h4>
+                        </div>
+                        <div className='mt-20'>
+                            <div className='flex gap-6 items-center'>
+                                <div>
+                                    <img src={user} alt="" />
+                                </div>
+                                <div>
+                                    <h4 className='text-xl font-bold'>nadavshez</h4>
+                                    <p className='text-[#938683]'>Nevada, USA </p>
+                                </div>
+                            </div>
+                            <div className='flex items-center'>
+                                <div className="rating rating-md  mt-4">
+                                    <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" />
+                                    <input
+                                        type="radio"
+                                        name="rating-7"
+                                        className="mask mask-star-2 bg-orange-400"
+                                        defaultChecked />
+                                    <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" defaultChecked />
+                                    <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" defaultChecked />
+                                    <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" defaultChecked />
+                                </div>
+                                <div>
+                                    <p className='ml-3 mt-5'>5 </p>
+                                </div>
+                            </div>
+                            <p className='text-[#938683] mt-4 w-11/12'>Best ui ux designer we hired so far i on fiverr, we are very happy and lucky to meet emon and adding him to our team, thanks to him we are most assure our product we be designed properly and on time as he is very responsible and kind with time schedules.</p>
+                            <h4 className='mt-4 font-bold text-xl'>Purchased: Basic Training - Canine Good Citizen</h4>
+                        </div>
+                        <div className='mt-20'>
+                            <div className='flex gap-6 items-center'>
+                                <div>
+                                    <img src={user} alt="" />
+                                </div>
+                                <div>
+                                    <h4 className='text-xl font-bold'>nadavshez</h4>
+                                    <p className='text-[#938683]'>Nevada, USA </p>
+                                </div>
+                            </div>
+                            <div className='flex items-center'>
+                                <div className="rating rating-md  mt-4">
+                                    <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" />
+                                    <input
+                                        type="radio"
+                                        name="rating-7"
+                                        className="mask mask-star-2 bg-orange-400"
+                                        defaultChecked />
+                                    <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" defaultChecked />
+                                    <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" defaultChecked />
+                                    <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" defaultChecked />
+                                </div>
+                                <div>
+                                    <p className='ml-3 mt-5'>5 </p>
+                                </div>
+                            </div>
+                            <p className='text-[#938683] mt-4 w-11/12'>Best ui ux designer we hired so far i on fiverr, we are very happy and lucky to meet emon and adding him to our team, thanks to him we are most assure our product we be designed properly and on time as he is very responsible and kind with time schedules.</p>
+                            <h4 className='mt-4 font-bold text-xl'>Purchased: Basic Training - Canine Good Citizen</h4>
                         </div>
                     </div>
                 </div>
+                <div className='mt-20 mb-10'>
+                    <h4 className='font-extrabold text-2xl pl-4'>Recommended Traniner</h4>
+                    <p className='text-[#938683] pl-4 mb-10'>Lorem ipsum dolor sit amet, est vide voluptaria ex, <br /> nec in hinc solum sat. Neceessitatibus sonet soluta</p>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+                        <div className="card card-compact bg-base-100 shadow-2xl mb-4">
+                            <figure className='relative'>
+                                <img src={rs1} />
+                                <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
+                            </figure>
+                            <div className="card-body mb-0 pb-0">
+                                <h2 className="card-title text-2xl font-extrabold">American Water Spaniel</h2>
+                                <p className=''>Meal/Female available 15 weeks old</p>
+                            </div>
+                            <div className="w-11/12 mx-auto h-0.5 bg-slate-600">
+                                <br />
+                            </div>
+                            <div className='card-body'>
+                                <p>664522 Spring Creek Montrose, <br />
+                                    CO 8542</p>
+                            </div>
+                        </div>
+                        <div className="card card-compact bg-base-100 shadow-2xl mb-4">
+                            <figure className='relative'>
+                                <img src={rs2} />
+                                <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
+                            </figure>
+                            <div className="card-body mb-0 pb-0">
+                                <h2 className="card-title text-2xl font-extrabold">American Water Spaniel</h2>
+                                <p className=''>Meal/Female available 15 weeks old</p>
+                            </div>
+                            <div className="w-11/12 mx-auto h-0.5 bg-slate-600">
+                                <br />
+                            </div>
+                            <div className='card-body'>
+                                <p>664522 Spring Creek Montrose, <br />
+                                    CO 8542</p>
+                            </div>
+                        </div>
+                        <div className="card card-compact bg-base-100 shadow-2xl mb-4">
+                            <figure className='relative'>
+                                <img src={rs3} />
+                                <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
+                            </figure>
+                            <div className="card-body mb-0 pb-0">
+                                <h2 className="card-title text-2xl font-extrabold">American Water Spaniel</h2>
+                                <p className=''>Meal/Female available 15 weeks old</p>
+                            </div>
+                            <div className="w-11/12 mx-auto h-0.5 bg-slate-600">
+                                <br />
+                            </div>
+                            <div className='card-body'>
+                                <p>664522 Spring Creek Montrose, <br />
+                                    CO 8542</p>
+                            </div>
+                        </div>
 
+                    </div>
+
+                </div>
             </div>
         </section>
     );

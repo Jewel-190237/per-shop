@@ -40,8 +40,8 @@ const singleShop = () => {
             </div>
 
             <div className='max-w-6xl mx-auto mt-32'>
-                <div className='grid grid-cols-1 md:grid-cols-3 items-center gap-16'>
-                    <div className='col-span-1 md:col-span-2'>
+                <div className='grid grid-cols-1 md:grid-cols-2 items-center gap-16'>
+                    <div className=''>
 
                         <Swiper
                             style={{
@@ -49,7 +49,8 @@ const singleShop = () => {
                                 '--swiper-pagination-color': '#fff',
                             }}
                             spaceBetween={10}
-                            navigation={true}
+                            
+                            watchSlidesProgress={true}
                             thumbs={{ swiper: thumbsSwiper }}
                             modules={[FreeMode, Navigation, Thumbs]}
                             className="mySwiper2"
@@ -83,10 +84,10 @@ const singleShop = () => {
                         </Swiper>
                         <Swiper
                             onClick={setThumbsSwiper}
+                            navigation={true}
                             spaceBetween={10}
                             slidesPerView={3}
                             freeMode={true}
-                            watchSlidesProgress={true}
                             modules={[FreeMode, Navigation, Thumbs]}
                             className="mySwiper"
                         >
