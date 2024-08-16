@@ -14,6 +14,7 @@ import PuppiesProduct from './Components/Product/PuppiesProduct/PuppiesProduct.j
 import OurShop from './Components/OurShop/OurShop.jsx';
 import Appoinment from './Components/Appointment/Appoinment.jsx';
 import AboutMe from './Components/Appointment/AboutMe.jsx';
+import Contact from './Components/Contact/Contact.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: "/ourShop",
         element: <OurShop />,
+      },
+      {
+        path: "/contact",
+        element: <Contact></Contact>,
       },
     
       {

@@ -66,7 +66,7 @@ const Footer = () => {
                         <div className='flex flex-col mt-3'>
                             <a className="link link-hover text-[#EBECED] font-thin text-xs">Terms of Use</a>
                             <a className="link link-hover text-[#EBECED] font-thin text-xs">Privacy Policy</a>
-                            <a className="link link-hover text-[#EBECED] font-thin text-xs">Contact</a>
+                            <a href='/contact' className="link link-hover text-[#EBECED] font-thin text-xs">Contact</a>
                         </div>
                     </div>
                 </div>
