@@ -449,7 +449,6 @@ const Review = () => {
                                     CO 8542</p>
                             </div>
                         </div>
-
                     </div>
 
                 </div>
