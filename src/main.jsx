@@ -17,6 +17,7 @@ import AboutMe from './Components/Appointment/AboutMe.jsx';
 import Contact from './Components/Contact/Contact.jsx';
 import PussyService from './Components/PussyService/PussyService.jsx';
 import BathService from './Components/BathService/BathService.jsx';
+import Trainer from './Components/Trainer/Trainer.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
       {
         path: "/bathService",
         element: <BathService></BathService>
+      },
+      {
+        path: "/trainer",
+        element: <Trainer></Trainer>
       },
       {
         path: "/contact",
