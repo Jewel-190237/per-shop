@@ -18,6 +18,7 @@ import Contact from './Components/Contact/Contact.jsx';
 import PussyService from './Components/PussyService/PussyService.jsx';
 import BathService from './Components/BathService/BathService.jsx';
 import Trainer from './Components/Trainer/Trainer.jsx';
+import SingleShop from './Components/singleShop/singleShop.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -56,6 +57,11 @@ const router = createBrowserRouter([
         path: "/trainer",
         element: <Trainer></Trainer>
       },
+      {
+        path: "/singleShop",
+        element: <SingleShop></SingleShop>
+      },
+      
       {
         path: "/contact",
         element: <Contact></Contact>,

@@ -65,7 +65,7 @@ const Footer = () => {
                         <a className='font-bold text-sm' href=""> Polices & Support</a>
                         <div className='flex flex-col mt-3'>
                             <a className="link link-hover text-[#EBECED] font-thin text-xs">Terms of Use</a>
-                            <a className="link link-hover text-[#EBECED] font-thin text-xs">Privacy Policy</a>
+                            <a href='/singleShop' className="link link-hover text-[#EBECED] font-thin text-xs">Single Shop</a>
                             <a href='/contact' className="link link-hover text-[#EBECED] font-thin text-xs">Contact</a>
                         </div>
                     </div>
