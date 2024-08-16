@@ -1,8 +1,13 @@
 
 import homeIcon from '../../assets/image/singleShop/homeIcon.png'
-import sliderPicture from '../../assets/image/singleShop/SliderPictures.png'
 import pussyBanner from '../../assets/image/singleShop/pussyCuteBanner.png'
-import trainer from '../../assets/image/singleShop/trainer.png'
+import ss1 from '../../assets/image/singleShop/ss slider.png'
+import star from '../../assets/image/singleShop/star.png'
+import love from '../../assets/image/singleShop/love.png'
+import reviewer from '../../assets/image/singleShop/reviewer.png'
+import sc1 from '../../assets/image/singleShop/sc1.png'
+import sc2 from '../../assets/image/singleShop/sc3.png'
+import sc3 from '../../assets/image/singleShop/sc3.png'
 
 
 import React, { useRef, useState } from 'react';
@@ -39,9 +44,9 @@ const singleShop = () => {
                 </div>
             </div>
 
-            <div className='max-w-6xl mx-auto mt-32'>
+            <div className='max-w-[1320px] mx-auto mt-32 p-6'>
                 <div className='grid grid-cols-1 md:grid-cols-2 items-center gap-16'>
-                    <div className=''>
+                    <div className='p-6'>
 
                         <Swiper
                             style={{
@@ -49,37 +54,36 @@ const singleShop = () => {
                                 '--swiper-pagination-color': '#fff',
                             }}
                             spaceBetween={10}
-                            
+
                             watchSlidesProgress={true}
                             thumbs={{ swiper: thumbsSwiper }}
                             modules={[FreeMode, Navigation, Thumbs]}
                             className="mySwiper2"
                         >
                             <SwiperSlide>
-                                <img src={sliderPicture} />
+                                <img src={ss1} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={sliderPicture} />
+                                <img src={ss1} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={sliderPicture} />
+                                <img src={ss1} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={sliderPicture} />
+                                <img src={ss1} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={sliderPicture} />
+                                <img src={ss1} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={sliderPicture} />
+                                <img src={ss1} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={sliderPicture} />
+                                <img src={ss1} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={sliderPicture} />
+                                <img src={ss1} />
                             </SwiperSlide>
-
 
                         </Swiper>
                         <Swiper
@@ -93,124 +97,189 @@ const singleShop = () => {
                         >
 
                             <SwiperSlide>
-                                <img src={sliderPicture} />
+                                <img src={ss1} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={sliderPicture} />
+                                <img src={ss1} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={sliderPicture} />
+                                <img src={ss1} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={sliderPicture} />
+                                <img src={ss1} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={sliderPicture} />
+                                <img src={ss1} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={sliderPicture} />
+                                <img src={ss1} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={sliderPicture} />
+                                <img src={ss1} />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src={sliderPicture} />
+                                <img src={ss1} />
                             </SwiperSlide>
                         </Swiper>
 
                     </div>
                     <div className='shadow-xl p-6 rounded-lg'>
-                        <div className='flex justify-between'>
-                            <a className='font-bold text-black text-xl' href="">Basic</a>
-                            <a className='font-bold text-black text-xl' href="">Standard</a>
-                            <a className='font-bold text-black text-xl' href="">Premium</a>
+                        <h4 className='font-extrabold text-2xl'>ACANA Singles Grain Free Limited Ingredient Diet Duck and Pear Formula Dog reats</h4>
+                        <p className='w-10/12 mt-3 text-[#938683]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        </p>
+                        <div className='mt-8 mb-8'>
+                            <p>By NextGrad</p>
+                            <p>SKU: 0984504</p>
                         </div>
-                        <div className='flex justify-between mt-8'>
-                            <p className='font-bold'>Startups Pack</p>
-                            <p className='font-bold'>$30</p>
+                        <div className='mx-auto flex gap-2 justify-center'>
+                            <img src={star} alt="" />
+                            <p className='text-center'>(4.5) 25 Review</p>
                         </div>
-                        <div className='mt-8'>
-                            <h4 className='font-bold '>Basic Training - Canine Good Citizen</h4>
-                        </div>
-                        <div className='mt-4'>
-                            <ul >
-                                <li> <input type="radio" name="a" id="" /> Basic Training - Canine Good Citizen</li>
-                                <li> <input type="radio" name="a" id="" /> Basic Training - Advanced CGC</li>
-                                <li> <input type="radio" name="a" id="" /> Basic Training - Urban CGC</li>
-                            </ul>
-                        </div>
-                        <div className='text-center mt-8'>
-                            <li className="btn mt-1 w-full rounded-3xl bg-[#FF5C2C] text-white font-bold"> Order Now</li>
-                        </div>
-                        <div className='text-center mt-8'>
-                            <li className="btn mt-1 w-full bg-none rounded-3xl border border-[#FF5C2C] text-black font-bold"> Contact Trainer</li>
+                        <p className='mt-8 mb-8'>$9.99–$22.99</p>
+                        <label className="form-control w-full">
+                            <div className="label">
+                                <span className="label-text">Weight</span>
+                            </div>
+                            <select className='w-full p-3 rounded-3xl border-2 input border-[#FF5C2C]' name="" id="">
+                                <option value="a">150 gram</option>
+                                <option value="a">250 gram</option>
+                                <option value="a">350 gram</option>
+                            </select>
+
+                        </label>
+                        <p className='mt-8 mb-8'>$22.99</p>
+                        <div className='flex justify-between gap-4 items-center'>
+                            <div>
+                                <button className='btn bg-white rounded-3xl border-[#FF5C2C] border-2 text-black px-12'>
+                                    <div className='flex justify-between gap-6 font-bold'>
+                                        <p> - </p>
+                                        <p> 1 </p>
+                                        <p> + </p>
+                                    </div>
+                                </button>
+                            </div>
+                            <div>
+                                <button className='btn rounded-3xl bg-[#FF5C2C] text-white px-12'>Add to cart</button>
+                            </div>
+                            <div>
+                                <img src={love} alt="" />
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div className='flex flex-col justify-center mt-20'>
-                    <h4 className='font-bold text-black font-xl mx-auto'>About This Services</h4>
-                    <p className='mt-4 w-2/5 text-[#545B61] mx-auto text-center'>We are a reward-based training company that offers private in-home training, as well as, group classes at The Pooch Palace in the beautiful, Alabama town of Cullman. For more information about us, visit our website, NamasteDogTraining.com, or find us on Facebook, Instagram, Tik Tok, and Youtube! </p>
-
-                    <h4 className='font-bold text-black font-xl mx-auto mt-8'>What I train</h4>
-
-                    <div className='mt-8  mx-auto'>
-                        <ul className='mx-auto' >
-                            <li > <input type="radio" name="a" id="" /> Basic Training - Canine Good Citizen</li>
-                            <li className='mt-3'> <input type="radio" name="a" id="" /> Basic Training - Advanced CGC</li>
-                            <li className='mt-3'> <input type="radio" name="a" id="" /> Basic Training - Urban CGC</li>
-                        </ul>
+                <div className='mt-28'>
+                    <div className='flex gap-10'>
+                        <h4 className='font-extrabold text-2xl text-black'>4.5</h4>
+                        <h4 className='font-extrabold text-2xl text-[#545B61]'>Average Rating</h4>
                     </div>
-
-                    <h4 className='font-bold text-black font-xl mx-auto mt-8'>About This Trainer</h4>
-
-
-                    <div className="relative indicator mx-auto mb-8">
-                        <span className="absolute badge-primary rounded-full p-2 bottom-5 -right-2">top</span>
-                        <div className="bg-base-300 grid h-32 w-32 place-items-center rounded-full"><img src={trainer} alt="" />
-                        </div>
-                    </div>
-                    <h4 className='font-bold text-black font-xl mx-auto mt-8'>Namaste Dog Training</h4>
-
-                    <h4 className='font-bold text-black font-xl mx-auto mt-4'> Trainer</h4>
-
-                    <div className="rating rating-md mx-auto mt-4">
-                        <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" />
-                        <input
-                            type="radio"
-                            name="rating-7"
-                            className="mask mask-star-2 bg-orange-400"
-                            defaultChecked />
-                        <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" defaultChecked />
-                        <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" defaultChecked />
-                        <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" defaultChecked />
-                        <p>5 (125 Reviews)</p>
-                    </div>
-
-                    <div className='mx-auto mt-4'>
-                        <button className='btn btn-outline bg-blue-900 text-white rounded-3xl'>Contact me</button>
-                    </div>
-
-                    <div>
-                        <div className="collapse collapse-plus bg-base-200">
-                            <input type="radio" name="my-accordion-3" defaultChecked />
-                            <div className="collapse-title text-xl font-medium">Click to open this one and close others</div>
-                            <div className="collapse-content">
-                                <p>hello</p>
+                    <div className='mt-10'>
+                        <div className='flex items-center gap-8 '>
+                            <div>
+                                <img src={reviewer} alt="" />
+                            </div>
+                            <div>
+                                <h4 className='font-extrabold text-2xl text-black'>Komoles Sarkar</h4>
                             </div>
                         </div>
-                        <div className="collapse collapse-plus ">
-                            <input type="radio" name="my-accordion-3" />
-                            <div className="collapse-title text-xl font-medium">Click to open this one and close others</div>
-                            <div className="collapse-content">
-                                <p>hello</p>
+                        <p className='text-[#938683] mt-4'>This will go great with my Hoodie that I ordered a few weeks ago.</p>
+                    </div>
+                    <div className='mt-10'>
+                        <div className='flex items-center gap-8 '>
+                            <div>
+                                <img src={reviewer} alt="" />
+                            </div>
+                            <div>
+                                <h4 className='font-extrabold text-2xl text-black'>Komoles Sarkar</h4>
                             </div>
                         </div>
-                        <div className="collapse collapse-plus bg-base-200">
-                            <input type="radio" name="my-accordion-3" />
-                            <div className="collapse-title text-xl font-medium">Click to open this one and close others</div>
-                            <div className="collapse-content">
-                                <p>hello</p>
+                        <p className='text-[#938683] mt-4'>This will go great with my Hoodie that I ordered a few weeks ago.</p>
+                    </div>
+
+                    <div className='mt-32'>
+                        <p className='text-[#938683] mt-4'>Your email address will not be published. Required fields are marked *</p>
+                        <div className='w-1/2'>
+                            <div className='flex gap-4 mt-8'>
+                                <div className='flex-1'>
+                                    <label className="form-control w-full">
+                                        <input className='w-full p-3 rounded-xl border-2 input border-[#FF5C2C]' type="text" placeholder='Name' required />
+                                    </label>
+                                </div>
+                                <div className='flex-1'>
+                                    <label className="form-control w-full">
+                                        <input className='w-full p-3 rounded-xl border-2 input border-[#FF5C2C]' type="text" placeholder='Email' required />
+                                    </label>
+                                </div>
+                            </div>
+                            <label className="form-control w-full mt-4">
+                                <input className='w-full p-3 rounded-xl border-2 input border-[#FF5C2C] h-32' required type="text" placeholder='Your Review' />
+                            </label>
+                        </div>
+                    </div>
+
+                    <div className='mr-10'>
+                        <p className='text-[#938683] mt-4'>Your Rating</p>
+                        <div className="rating">
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+                        </div>
+                    </div>
+
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-20'>
+                        <div className="card card-compact bg-base-100 shadow-2xl mb-4">
+                            <figure className='relative'>
+                                <img src={sc1} />
+                                <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
+                            </figure>
+                            <div className="card-body mb-0 pb-0">
+                                <h2 className="card-title text-2xl font-extrabold">American Water Spaniel</h2>
+                                <p className=''>Meal/Female available 15 weeks old</p>
+                            </div>
+                            <div className="w-11/12 mx-auto h-0.5 bg-slate-600">
+                                <br />
+                            </div>
+                            <div className='card-body'>
+                                <p>664522 Spring Creek Montrose, <br />
+                                    CO 8542</p>
+                            </div>
+                        </div>
+                        <div className="card card-compact bg-base-100 shadow-2xl mb-4">
+                            <figure className='relative'>
+                                <img src={sc2} />
+                                <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
+                            </figure>
+                            <div className="card-body mb-0 pb-0">
+                                <h2 className="card-title text-2xl font-extrabold">American Water Spaniel</h2>
+                                <p className=''>Meal/Female available 15 weeks old</p>
+                            </div>
+                            <div className="w-11/12 mx-auto h-0.5 bg-slate-600">
+                                <br />
+                            </div>
+                            <div className='card-body'>
+                                <p>664522 Spring Creek Montrose, <br />
+                                    CO 8542</p>
+                            </div>
+                        </div>
+                        <div className="card card-compact bg-base-100 shadow-2xl mb-4">
+                            <figure className='relative'>
+                                <img src={sc3} />
+                                <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
+                            </figure>
+                            <div className="card-body mb-0 pb-0">
+                                <h2 className="card-title text-2xl font-extrabold">American Water Spaniel</h2>
+                                <p className=''>Meal/Female available 15 weeks old</p>
+                            </div>
+                            <div className="w-11/12 mx-auto h-0.5 bg-slate-600">
+                                <br />
+                            </div>
+                            <div className='card-body'>
+                                <p>664522 Spring Creek Montrose, <br />
+                                    CO 8542</p>
                             </div>
                         </div>
                     </div>
