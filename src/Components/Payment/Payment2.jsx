@@ -4,6 +4,8 @@ import pussyBanner from '../../assets/image/payment/pussyCuteBanner.png'
 import card from '../../assets/image/payment/Group.png'
 import productImage from '../../assets/image/payment/productImage.png'
 import lock from '../../assets/image/payment/lock 1.png'
+import paypal from '../../assets/image/payment/paypal 1.png'
+
 import { Link } from 'react-router-dom';
 
 const Payment2 = () => {
@@ -11,7 +13,7 @@ const Payment2 = () => {
         <section >
             <div className='bg-[#61D5DF] h-60 w-full mb-20 mt-56 flex justify-between relative'>
                 <div className='ml-4 md:ml-20 flex flex-col items-center justify-center'>
-                    <h1 className='text-[#181818] font-bold text-3xl pl-5'>Our Shop</h1>
+                    <h1 className='text-[#181818] font-bold text-3xl pl-5'>Payment Options</h1>
                     <div className='flex space-x-2'>
                         <img src={homeIcon} alt="" />
                         <p className='mt-3'>Home /<span className='text-[#FF5C2C]'> Shop</span></p>
@@ -25,7 +27,7 @@ const Payment2 = () => {
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-7 mb-60 mt-40'>
                     <div className='col-span-2 p-3 '>
                         <label className=" w-full mt-4">
-                            <div className='w-full p-7 rounded-xl border-2 border-[#FF5C2C] h-20 '>
+                            <div className=' font-bold w-full p-7 rounded-xl border-[1px] border-[#FF5C2C] h-20 bg-[#FF5C2C1A] '>
                                 Payment Option
                             </div>
                         </label>
@@ -34,36 +36,11 @@ const Payment2 = () => {
                             <p className='text-black font-bold'>Credit and Debit Cards</p>
                             <img src={card} alt="" />
                         </div>
-                        <div className='w-full p-3 rounded-xl border-2 border-[#FF5C2C] h-full'>
-                            <div className='flex justify-between gap-4'>
-                                <div className="flex-1 w-full">
-                                    <label > Card Number
-                                        <input className='w-full p-3 rounded-xl border-2 input border-[#FF5C2C]' type="number" required />
-                                    </label>
-                                </div>
-                                <div className='flex gap-4 justify-between'>
-                                    <label className="form-control w-full"> Security Code
-                                        <input className='w-full p-3 rounded-xl border-2 input border-[#FF5C2C]' type="number" required />
-                                    </label>
-                                    <label className="form-control w-full"> Expire Date
-                                        <input className='w-full p-3 rounded-xl border-2 input border-[#FF5C2C]' type="date" required />
-                                    </label>
-                                </div>
-                            </div>
-                            <div className='flex justify-between gap-4 mt-10'>
-                                <div className=" w-full">
-                                    <label> First Name
-                                        <input className='w-full rounded-xl border-2 input border-[#FF5C2C]' type="text" required />
-                                    </label>
-                                </div>
-                                <div className="w-full">
-                                    <label> Last Name
-                                        <input className='w-full rounded-xl border-2 input border-[#FF5C2C]' type="text" required />
-                                    </label>
-
-                                </div>
-                            </div>
-
+                        <div className="rating mt-8 flex items-center gap-7 ml-6">
+                            <input type="radio" name="radio" className="radio bg-[#d83706] rounded-full border-2 border-[#d83706] " defaultChecked />
+                            <img src={paypal} alt="" />
+                        </div>
+                        <div className='w-full p-3 rounded-xl border-[1px] border-[#FF5C2C] bg-[#FF5C2C1A]'>
                             <div className="gap-0 w-32">
                                 <label className="cursor-pointer label">
                                     <input type="checkbox" defaultChecked className="checkbox checkbox-success " />
@@ -73,7 +50,7 @@ const Payment2 = () => {
                         </div>
 
                     </div>
-                    <div className='p-3'>
+                    <div className='p-3 border-[1px] border-[#FF5C2C] rounded-lg'>
                         <div className='flex gap-4 rounded-lg bg-[#FF5C2C] items-center'>
                             <img src={productImage} alt="" />
                             <h4 className='text-white font-bold'>Lorem ipsum dolor sit amet,
@@ -103,7 +80,7 @@ const Payment2 = () => {
                     </div>
                 </div>
                 <div className='flex p-6 justify-between'>
-                    <Link to='/payment'><button className=' btn bg-[#FF5C2C] text-white font-bold rounded-3xl '>Next</button></Link>
+                    <Link to='/payment'><button className=' btn bg-[#FF5C2C] text-white font-bold rounded-3xl '>Previous</button></Link>
                     <Link to='/payment3'><button className=' btn bg-[#FF5C2C] text-white font-bold rounded-3xl '>Next</button></Link>
                 </div>
 
