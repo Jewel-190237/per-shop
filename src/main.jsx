@@ -21,6 +21,7 @@ import Trainer from './Components/Trainer/Trainer.jsx';
 import SingleShop from './Components/singleShop/singleShop.jsx';
 import Review from './Components/Review/Review.jsx';
 import Payment from './Components/Payment/Payment.jsx';
+import Payment2 from './Components/Payment/Payment2.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -70,6 +71,10 @@ const router = createBrowserRouter([
       {
         path: "/payment",
         element: <Payment></Payment>
+      },
+      {
+        path: "/payment2",
+        element: <Payment2></Payment2>
       },
       
       {
