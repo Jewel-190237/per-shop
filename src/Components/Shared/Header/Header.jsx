@@ -88,7 +88,7 @@ const Header = () => {
             <div tabIndex={0} role="button" className=" m-1 rounded-3xl bg-[#FF5C2C] text-white font-bold">How it works</div>
             <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
               <li className='text-black'>
-                <a className='flex'>
+                <a href='/manageAccount1' className='flex'>
                   <img src={setting} alt="" />
                   <p>Manage Account</p>
                 </a>
