@@ -22,6 +22,7 @@ import SingleShop from './Components/singleShop/singleShop.jsx';
 import Review from './Components/Review/Review.jsx';
 import Payment from './Components/Payment/Payment.jsx';
 import Payment2 from './Components/Payment/Payment2.jsx';
+import Payment3 from './Components/Payment/Payment3.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -75,6 +76,10 @@ const router = createBrowserRouter([
       {
         path: "/payment2",
         element: <Payment2></Payment2>
+      },
+      {
+        path: "/payment3",
+        element: <Payment3></Payment3>
       },
       
       {
