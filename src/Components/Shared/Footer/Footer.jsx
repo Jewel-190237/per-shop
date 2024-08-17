@@ -58,7 +58,7 @@ const Footer = () => {
                         <div className='flex flex-col mt-3'>
                             <a className="link link-hover text-[#EBECED] font-thin text-xs">Bully Good Works</a>
                             <a className="link link-hover text-[#EBECED] font-thin text-xs">Newsletter Subscriptions</a>                     <a className="link link-hover text-[#EBECED] font-thin text-xs">Center</a>
-                            <a className="link link-hover text-[#EBECED] font-thin text-xs">Bully Good Works</a>
+                            <a href='/payment' className="link link-hover text-[#EBECED] font-thin text-xs">Payment</a>
                         </div>
                     </div>
                     <div className='mb-10 lg:mb-1 md:mb-5'>

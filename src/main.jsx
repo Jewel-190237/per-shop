@@ -20,6 +20,7 @@ import BathService from './Components/BathService/BathService.jsx';
 import Trainer from './Components/Trainer/Trainer.jsx';
 import SingleShop from './Components/singleShop/singleShop.jsx';
 import Review from './Components/Review/Review.jsx';
+import Payment from './Components/Payment/Payment.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -65,6 +66,10 @@ const router = createBrowserRouter([
       {
         path: "/review",
         element: <Review></Review>
+      },
+      {
+        path: "/payment",
+        element: <Payment></Payment>
       },
       
       {
