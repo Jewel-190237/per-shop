@@ -4,6 +4,7 @@ import pussyBanner from '../../assets/image/payment/pussyCuteBanner.png'
 import card from '../../assets/image/payment/Group.png'
 import productImage from '../../assets/image/payment/productImage.png'
 import lock from '../../assets/image/payment/lock 1.png'
+import { Link } from 'react-router-dom';
 
 const Payment = () => {
     return (
@@ -98,9 +99,12 @@ const Payment = () => {
                         <div className='flex justify-center mt-4 items-center'>
                             <img src={lock} alt="" />
                             <p className='text-[#938683]'>SSL Secure Payment</p>
-
                         </div>
                     </div>
+                </div>
+                <div className='flex p-6 justify-between'>
+                    <button disabled className=' btn bg-[#FF5C2C] text-white font-bold rounded-3xl '>previous</button>
+                    <Link to='/payment2'><button className=' btn bg-[#FF5C2C] text-white font-bold rounded-3xl '>Next</button></Link>
                 </div>
 
             </div>
