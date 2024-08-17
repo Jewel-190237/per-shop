@@ -7,6 +7,7 @@ import callIcon from '../../assets/image/payment/Call btn.png'
 import file from '../../assets/image/payment/file.png'
 import camera from '../../assets/image/payment/camera.png'
 import aero from '../../assets/image/payment/Arrow - Right 2.png'
+import { Link } from 'react-router-dom';
 
 const Payment3 = () => {
     return (
@@ -110,7 +111,10 @@ const Payment3 = () => {
                         </div>
                     </div>
                 </div>
-
+                <div className='flex p-6 justify-between'>
+                    <Link to='/payment2'><button className=' btn bg-[#FF5C2C] text-white font-bold rounded-3xl '>Previous</button></Link>
+                    <button disabled className=' btn bg-[#FF5C2C] text-white font-bold rounded-3xl '>Next</button>
+                </div>
             </div>
 
         </section>
