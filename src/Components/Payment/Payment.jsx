@@ -11,7 +11,7 @@ const Payment = () => {
         <section >
             <div className='bg-[#61D5DF] h-60 w-full mb-20 mt-56 flex justify-between relative'>
                 <div className='ml-4 md:ml-20 flex flex-col items-center justify-center'>
-                    <h1 className='text-[#181818] font-bold text-3xl pl-5'>Our Shop</h1>
+                    <h1 className='text-[#181818] font-bold text-3xl pl-5'>Payment Options</h1>
                     <div className='flex space-x-2'>
                         <img src={homeIcon} alt="" />
                         <p className='mt-3'>Home /<span className='text-[#FF5C2C]'> Shop</span></p>
@@ -25,7 +25,7 @@ const Payment = () => {
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-7 mb-60 mt-40'>
                     <div className='col-span-2 p-3 '>
                         <label className=" w-full mt-4">
-                            <div className='w-full p-7 rounded-xl border-2 border-[#FF5C2C] h-20 '>
+                            <div className=' font-bold w-full p-7 rounded-xl border-[1px] border-[#FF5C2C] h-20 '>
                                 Payment Option
                             </div>
                         </label>
@@ -34,31 +34,31 @@ const Payment = () => {
                             <p className='text-black font-bold'>Credit and Debit Cards</p>
                             <img src={card} alt="" />
                         </div>
-                        <div className='w-full p-3 rounded-xl border-2 border-[#FF5C2C] h-full'>
+                        <div className='w-full p-3 rounded-xl border-[1px] border-[#FF5C2C] h-full'>
                             <div className='flex justify-between gap-4'>
                                 <div className="flex-1 w-full">
                                     <label > Card Number
-                                        <input className='w-full p-3 rounded-xl border-2 input border-[#FF5C2C]' type="number" required />
+                                        <input className='w-full p-3 rounded-xl border-[1px] border-[#FF5C2C] input' type="number" required />
                                     </label>
                                 </div>
                                 <div className='flex gap-4 justify-between'>
                                     <label className="form-control w-full"> Security Code
-                                        <input className='w-full p-3 rounded-xl border-2 input border-[#FF5C2C]' type="number" required />
+                                        <input className='w-full p-3 rounded-xl border-[1px] border-[#FF5C2C] input ' type="number" required />
                                     </label>
                                     <label className="form-control w-full"> Expire Date
-                                        <input className='w-full p-3 rounded-xl border-2 input border-[#FF5C2C]' type="date" required />
+                                        <input className='w-full p-3 rounded-xl border-[1px] border-[#FF5C2C] input' type="date" required />
                                     </label>
                                 </div>
                             </div>
                             <div className='flex justify-between gap-4 mt-10'>
                                 <div className=" w-full">
                                     <label> First Name
-                                        <input className='w-full rounded-xl border-2 input border-[#FF5C2C]' type="text" required />
+                                        <input className='w-full rounded-xl border-[1px] border-[#FF5C2C] input' type="text" required />
                                     </label>
                                 </div>
                                 <div className="w-full">
                                     <label> Last Name
-                                        <input className='w-full rounded-xl border-2 input border-[#FF5C2C]' type="text" required />
+                                        <input className='w-full rounded-xl border-[1px] border-[#FF5C2C] input' type="text" required />
                                     </label>
 
                                 </div>
@@ -73,7 +73,7 @@ const Payment = () => {
                         </div>
 
                     </div>
-                    <div className='p-3'>
+                    <div className='p-3 border-[1px] border-[#FF5C2C] rounded-lg'>
                         <div className='flex gap-4 rounded-lg bg-[#FF5C2C] items-center'>
                             <img src={productImage} alt="" />
                             <h4 className='text-white font-bold'>Lorem ipsum dolor sit amet,
