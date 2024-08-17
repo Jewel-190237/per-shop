@@ -23,6 +23,7 @@ import Review from './Components/Review/Review.jsx';
 import Payment from './Components/Payment/Payment.jsx';
 import Payment2 from './Components/Payment/Payment2.jsx';
 import Payment3 from './Components/Payment/Payment3.jsx';
+import ManageAccount1 from './Components/MyAccount/ManageAccount1.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -80,6 +81,10 @@ const router = createBrowserRouter([
       {
         path: "/payment3",
         element: <Payment3></Payment3>
+      },
+      {
+        path: "/manageAccount1",
+        element: <ManageAccount1></ManageAccount1>
       },
       
       {
