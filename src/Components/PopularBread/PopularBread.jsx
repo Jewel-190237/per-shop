@@ -13,6 +13,8 @@ import './style.css';
 // import required modules
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 
+import sliderImage from '../../assets/image/PopularBreads/sliderImage.png'
+
 const PopularBread = () => {
     return (
         <section className='max-w-6xl mx-auto'>
@@ -37,30 +39,32 @@ const PopularBread = () => {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <img className='' src="/src/assets/image/PopularBreads/middle.png" />
+                    <img className='' src={sliderImage} />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='' src="/src/assets/image/PopularBreads/middle.png" />
+                    <img className='' src={sliderImage} />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='' src="/src/assets/image/PopularBreads/middle.png" />
+                    <img className='' src={sliderImage} />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='' src="/src/assets/image/PopularBreads/middle.png" />
+                    <img className='' src={sliderImage} />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='' src="/src/assets/image/PopularBreads/middle.png" />
+                    <img className='' src={sliderImage} />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='' src="/src/assets/image/PopularBreads/middle.png" />
+                    <img className='' src={sliderImage} />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='' src="/src/assets/image/PopularBreads/middle.png" />
+                    <img className='' src={sliderImage} />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img className='' src="/src/assets/image/PopularBreads/middle.png" />
+                    <img className='' src={sliderImage} />
                 </SwiperSlide>
-
+                <SwiperSlide>
+                    <img className='' src={sliderImage} />
+                </SwiperSlide>
             </Swiper>
         </section>
     );
