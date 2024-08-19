@@ -25,6 +25,7 @@ import Payment2 from './Components/Payment/Payment2.jsx';
 import Payment3 from './Components/Payment/Payment3.jsx';
 import ManageAccount1 from './Components/MyAccount/ManageAccount1.jsx';
 import MyProfile from './Components/MyAccount/MyProfile.jsx';
+import AddressBook from './Components/MyAccount/AddressBook.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -90,6 +91,10 @@ const router = createBrowserRouter([
       {
         path: "/myProfile",
         element: <MyProfile></MyProfile>
+      },
+      {
+        path: "/addressBook",
+        element: <AddressBook></AddressBook>
       },
       
       {
