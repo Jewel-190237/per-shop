@@ -23,8 +23,8 @@ const MyProfile = () => {
                         <h4 className='text-xl font-bold'>Hello, Leton Nondi</h4>
                         <a href="/manageAccount1"><h4 className='mt-8 text-xl font-bold'>Manage My Account</h4></a>
                         <div className='mt-8'>
-                            <a href="/myProfile"><p className='mt-2 text-[#9da6b1] font-bold'>My Profile</p></a>
-                            <a href=""><p className='mt-2 text-[#9da6b1] font-bold'>Address Book</p></a>
+                            <a href="/myProfile"><p className='mt-2 text-[#FF5C2C] font-bold'>My Profile</p></a>
+                            <a href="/addressBook"><p className='mt-2 text-[#9da6b1] font-bold'>Address Book</p></a>
                             <a href=""><p className='mt-2 text-[#9da6b1] font-bold'>MY Payment Options </p></a>
                             <a href=""><p className='mt-2 text-[#9da6b1] font-bold'>Vouchers</p></a>
                         </div>
