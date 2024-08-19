@@ -2,7 +2,7 @@ import React from 'react';
 
 const BillingHistory = () => {
     return (
-        <section className='mt-8 p-3'>
+        <section className='mt-8 p-3 '>
             <div className='grid grid-cols-1 md:grid-cols-4 gap-8'>
                 <div className='col-span-3 gap-4'>
                     <div className='flex '>
