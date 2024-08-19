@@ -18,7 +18,7 @@ const MyProfile = () => {
                 </div>
             </div>
             <div className='max-w-[1320] mx-auto'>
-                <div className='grid grid-cols-2 md:grid-cols-4 p-3 mt-32 gap-8'>
+                <div className='grid grid-cols-2 md:grid-cols-4 p-3 mt-32 rounded-lg '>
                     <div>
                         <h4 className='text-xl font-bold'>Hello, Leton Nondi</h4>
                         <a href="/manageAccount1"><h4 className='mt-8 text-xl font-bold'>Manage My Account</h4></a>
@@ -36,35 +36,41 @@ const MyProfile = () => {
                         <h4 className='mt-8 text-xl font-bold'>My Review</h4>
                         <h4 className='mt-8 text-xl font-bold'>Sell with us</h4>
                     </div>
-                    <div>
-                        <h4 className='text-xl font-bold'>Manage my Account</h4>
-                        <div className='bg-[#FF5C2C1A] rounded-lg p-4'>
-                            <h4 className='font-bold'>Personal Profile | EDIT</h4>
-                            <div className='mt-4'>
-                                <a href=""><p className='mt-2 text-[#9da6b1] font-bold'>Leton Nondi</p></a>
-                                <a href=""><p className='mt-2 text-[#9da6b1] font-bold'>letonnondi@gmail.com</p></a>
+                    <div className=''>
+                        <h4 className='text-xl font-bold'>My Profile</h4>
+                        <div className='bg-[#FF5C2C33] p-4'>
+                            <div className='mt-8'>
+                                <h4 className='font-bold'> Full Name</h4>
+                                <p className='mt-2 text-[#9da6b1] font-bold'>Liton Nondi</p>
                             </div>
-                            <h4 className='mt-10 font-bold text-[15px] pb-8 text-[#FF5C2C]'>Subscribe Our Newsletter</h4>
+                            <div className='mt-8'>
+                                <h4 className='font-bold'>Birth Day</h4>
+                                <p className='mt-2 text-[#9da6b1] font-bold'>23/12/2000</p>
+                            </div>
+                            <h4 className='mt-10 font-bold text-[15px] text-[#FF5C2C]'>Subscribe Our Newsletter</h4>
+                            <div className='mt-4 flex flex-col gap-3'>
+                                <button className='btn btn-outline rounded-3xl text-white font-bold bg-[#FF5C2C] px-10 w-2/3 '>Edit Profile</button>
+                                <button className='btn btn-outline rounded-3xl text-white font-bold bg-[#FF5C2C] w-2/3'>Change Password</button>
+                            </div>
                         </div>
                     </div>
                     <div className='col-span-2 mt-7'>
-                        <div className='flex justify-between gap-4 bg-[#FF5C2C1A] rounded-lg'>
+                        <div className='flex justify-between gap-4 bg-[#FF5C2C33] h-96'>
                             <div className='flex-1 rounded-lg p-4'>
-                                <h4 className='font-bold'>Address Book | <span className='text-[#FF5C2C]'>EDIT</span></h4>
-                                <p className='mt-2 text-[#9da6b1]  uppercase'>DEFOULT SHIPPING ADDRESS</p>
-                                <h4 className='font-bold mt-12'>Liton Nondi </h4>
-                                <div className='mt-4'>
-                                    <p className='mt-2 text-[#9da6b1] font-bold'>Chulkathi Bazer Khulna - Bagerhat </p>
-                                    <p className='mt-2 text-[#9da6b1] font-bold'>+ 1 235 4654 326</p>
+                                <div className='mt-8'>
+                                    <h4 className='font-bold'>Email Address | <span className='text-[#FF5C2C]'>Change</span></h4>
+                                    <p className='mt-2 text-[#9da6b1] font-bold'>litonondi@gamil.com</p>
+                                </div>
+                                <div className='mt-8'>
+                                    <h4 className='font-bold'>Gender</h4>
+                                    <p className='mt-2 text-[#9da6b1] font-bold'>Male</p>
                                 </div>
                             </div>
-                            <div className="divider lg:divider-horizontal py-8"></div>
+                            {/* <div className="divider lg:divider-horizontal py-8"></div> */}
                             <div className='flex-1 rounded-lg p-4'>
-                                <p className='mt-6 text-[#9da6b1]  uppercase'>DEFOULT SHIPPING ADDRESS</p>
-                                <h4 className='font-bold mt-12'>Liton Nondi </h4>
-                                <div className='mt-4'>
-                                    <p className='mt-2 text-[#9da6b1] font-bold'>Chulkathi Bazer Khulna - Bagerhat </p>
-                                    <p className='mt-2 text-[#9da6b1] font-bold'>+ 1 235 4654 326</p>
+                                <div className='mt-8'>
+                                    <h4 className='font-bold'>Phone Number | <span className='text-[#FF5C2C]'>Change</span></h4>
+                                    <p className='mt-2 text-[#9da6b1] font-bold'>01980-445424</p>
                                 </div>
                             </div>
                         </div>
