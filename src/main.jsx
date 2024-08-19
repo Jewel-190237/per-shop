@@ -31,6 +31,7 @@ import MyReturn from './Components/MyAccount/MyReturn.jsx';
 import MyCancelation from './Components/MyAccount/MyCanceletion.jsx';
 import MyReview from './Components/MyAccount/MyReview.jsx';
 import Vouchers from './Components/MyAccount/Vouchchers.jsx';
+import FindPuppy1 from './Components/DashboardPuppys/FindPuppy1.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -120,6 +121,10 @@ const router = createBrowserRouter([
       {
         path: "/vouchers",
         element: <Vouchers></Vouchers>
+      },
+      {
+        path: "/findPuppy1",
+        element: <FindPuppy1></FindPuppy1>
       },
       {
         path: "/contact",
