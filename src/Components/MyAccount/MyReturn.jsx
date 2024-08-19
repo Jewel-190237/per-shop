@@ -1,10 +1,10 @@
 import React from 'react';
 import homeIcon from '../../assets/image/singleShop/homeIcon.png'
 import pussyBanner from '../../assets/image/singleShop/pussyCuteBanner.png'
-import payment1 from '../../assets/image/myAccount/Payment-icon 4.png'
-import payment2 from '../../assets/image/myAccount/Payment-icon 5.png'
+import item1 from '../../assets/image/myAccount/Item_01.png'
+import item2 from '../../assets/image/myAccount/Item_02.png'
 
-const MyPaymentOption = () => {
+const MyReturn = () => {
     return (
         <section>
             <div className='bg-[#61D5DF] h-60 w-full mb-20 mt-56 flex justify-between relative'>
@@ -39,31 +39,39 @@ const MyPaymentOption = () => {
                         <h4 className='mt-8 text-xl font-bold'>Sell with us</h4>
                     </div>
                     <div className='col-span-3 mt-7'>
-                        <div className='flex justify-between px-2 mb-2 text-[#FF5C2C]'>
-                            <h4 className='font-bold text-xl'>My Payment Option</h4>
-                            <h4 className='font-bold text-xl'>+ Add Payment Option</h4>
-                        </div>
-                        <div className='bg-[#FF5C2C33] px-4 py-8 rounded-lg '>
-                            <h4 className='font-bold text-xl mb-8'>Account</h4>
-                            <div className='flex justify-between mb-8 items-center'>
-                                <div className='flex gap-4'>
-                                    <img src={payment1} alt="" />
-                                    <p className='mt-2 text-[#9da6b1] font-bold'>+ 1 235 4654 326</p>
-                                </div>
-                                <div className=''>
-                                    <h4 className='font-bold'><span className='text-[#FF5C2C]'>Delete</span></h4>
-                                </div>
+                        <h4 className='font-bold text-xl mb-3'>My Returns</h4>
+                            <div className="overflow-x-auto">
+                                <table className="table">
+                                    {/* head */}
+                                    <thead className='bg-[#FF5C2C33] font-bold rounded-3xl'>
+                                        <tr className=''>
+                                            <th>#Order</th>
+                                            <th>Place on</th>
+                                            <th>Item</th>
+                                            <th>Price</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {/* row 1 */}
+                                        <tr>
+                                            <th>6423135631463123</th>
+                                            <td>12/10/23</td>
+                                            <td><img src={item1} alt="" /></td>
+                                            <td>$45.99</td>
+                                            <td className='text-[#FF5C2C]'>Returned</td>
+                                        </tr>
+                                        <tr>
+                                            <th>6423135631463123</th>
+                                            <td>12/10/23</td>
+                                            <td><img src={item1} alt="" /></td>
+                                            <td>$45.99</td>
+                                            <td className='text-[#FF5C2C]'>Returned</td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
                             </div>
-                            <div className='flex justify-between items-center'>
-                                <div className='flex gap-4'>
-                                    <img src={payment2} alt="" />
-                                    <p className='mt-2 text-[#9da6b1] font-bold'> + 1 235 4654 326</p>
-                                </div>
-                                <div className=''>
-                                    <h4 className='font-bold'><span className='text-[#FF5C2C]'>Delete</span></h4>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -71,4 +79,4 @@ const MyPaymentOption = () => {
     );
 };
 
-export default MyPaymentOption;
+export default MyReturn;

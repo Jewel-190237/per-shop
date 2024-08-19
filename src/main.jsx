@@ -27,6 +27,7 @@ import ManageAccount1 from './Components/MyAccount/ManageAccount1.jsx';
 import MyProfile from './Components/MyAccount/MyProfile.jsx';
 import AddressBook from './Components/MyAccount/AddressBook.jsx';
 import MyPaymentOption from './Components/MyAccount/MyPaymentOption.jsx';
+import MyReturn from './Components/MyAccount/MyReturn.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -100,6 +101,10 @@ const router = createBrowserRouter([
       {
         path: "/myPaymentOption",
         element: <MyPaymentOption></MyPaymentOption>
+      },
+      {
+        path: "/myReturn",
+        element: <MyReturn></MyReturn>
       },
       
       {
