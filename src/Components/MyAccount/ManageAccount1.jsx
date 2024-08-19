@@ -44,7 +44,7 @@ const ManageAccount1 = () => {
                                 <a href=""><p className='mt-2 text-[#9da6b1] font-bold'>Leton Nondi</p></a>
                                 <a href=""><p className='mt-2 text-[#9da6b1] font-bold'>letonnondi@gmail.com</p></a>
                             </div>
-                            <h4 className='mt-20 font-bold text-[15px] pb-8 text-[#FF5C2C]'>Subscribe Our Newsletter</h4>
+                            <h4 className='mt-10 font-bold text-[15px] pb-8 text-[#FF5C2C]'>Subscribe Our Newsletter</h4>
                         </div>
                     </div>
                     <div className='col-span-2 mt-7'>
@@ -52,21 +52,21 @@ const ManageAccount1 = () => {
                             <div className='flex-1 rounded-lg p-4'>
                                 <h4 className='font-bold'>Address Book | <span className='text-[#FF5C2C]'>EDIT</span></h4>
                                 <p className='mt-2 text-[#9da6b1]  uppercase'>DEFOULT SHIPPING ADDRESS</p>
+                                <h4 className='font-bold mt-12'>Liton Nondi </h4>
                                 <div className='mt-4'>
-                                    <a href=""><p className='mt-2 text-[#9da6b1] font-bold'>Leton Nondi</p></a>
-                                    <a href=""><p className='mt-2 text-[#9da6b1] font-bold'>letonnondi@gmail.com</p></a>
+                                    <p className='mt-2 text-[#9da6b1] font-bold'>Chulkathi Bazer Khulna - Bagerhat </p>
+                                    <p className='mt-2 text-[#9da6b1] font-bold'>+ 1 235 4654 326</p>
                                 </div>
-                                <h4 className='mt-20 font-bold text-[15px] pb-8 text-[#FF5C2C]'>Subscribe Our Newsletter</h4>
                             </div>
+                            <div className="divider lg:divider-horizontal py-8"></div>
                             <div className='flex-1 rounded-lg p-4'>
-                                <h4 className='font-bold'>Personal Profile | EDIT</h4>
+                                <p className='mt-6 text-[#9da6b1]  uppercase'>DEFOULT SHIPPING ADDRESS</p>
+                                <h4 className='font-bold mt-12'>Liton Nondi </h4>
                                 <div className='mt-4'>
-                                    <a href=""><p className='mt-2 text-[#9da6b1] font-bold'>Leton Nondi</p></a>
-                                    <a href=""><p className='mt-2 text-[#9da6b1] font-bold'>letonnondi@gmail.com</p></a>
+                                    <p className='mt-2 text-[#9da6b1] font-bold'>Chulkathi Bazer Khulna - Bagerhat </p>
+                                    <p className='mt-2 text-[#9da6b1] font-bold'>+ 1 235 4654 326</p>
                                 </div>
-                                <h4 className='mt-20 font-bold text-[15px] pb-8 text-[#FF5C2C]'>Subscribe Our Newsletter</h4>
                             </div>
-
                         </div>
                     </div>
                 </div>
