@@ -31,7 +31,7 @@ const ManageAccount1 = () => {
                         <h4 className='mt-8 text-xl font-bold'>My Orders</h4>
                         <div className='mt-8'>
                             <a href="/myReturn"><p className='mt-2 text-[#9da6b1] font-bold'>My Returns</p></a>
-                            <a href=""><p className='mt-2 text-[#9da6b1] font-bold'>My Cancelation</p></a>
+                            <a href="/myCancelation"><p className='mt-2 text-[#9da6b1] font-bold'>My Cancelation</p></a>
                         </div>
                         <h4 className='mt-8 text-xl font-bold'>My Review</h4>
                         <h4 className='mt-8 text-xl font-bold'>Sell with us</h4>
