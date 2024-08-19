@@ -30,6 +30,7 @@ import MyPaymentOption from './Components/MyAccount/MyPaymentOption.jsx';
 import MyReturn from './Components/MyAccount/MyReturn.jsx';
 import MyCancelation from './Components/MyAccount/MyCanceletion.jsx';
 import MyReview from './Components/MyAccount/MyReview.jsx';
+import Vouchers from './Components/MyAccount/Vouchchers.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -116,7 +117,10 @@ const router = createBrowserRouter([
         path: "/myReview",
         element: <MyReview></MyReview>
       },
-      
+      {
+        path: "/vouchers",
+        element: <Vouchers></Vouchers>
+      },
       {
         path: "/contact",
         element: <Contact></Contact>,
