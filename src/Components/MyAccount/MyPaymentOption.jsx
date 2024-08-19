@@ -18,7 +18,7 @@ const MyPaymentOption = () => {
                             <a href="/myProfile"><p className='mt-2 text-[#9da6b1]  font-bold'>My Profile</p></a>
                             <a href="/addressBook"><p className='mt-2 text-[#9da6b1] font-bold'>Address Book</p></a>
                             <a href="/myPaymentOption"><p className='mt-2 text-[#FF5C2C]  font-bold'>MY Payment Options </p></a>
-                            <a href=""><p className='mt-2 text-[#9da6b1] font-bold'>Vouchers</p></a>
+                            <a href="/vouchers"><p className='mt-2 text-[#9da6b1] font-bold'>Vouchers</p></a>
                         </div>
                         <h4 className='mt-8 text-xl font-bold'>My Orders</h4>
                         <div className='mt-8'>
