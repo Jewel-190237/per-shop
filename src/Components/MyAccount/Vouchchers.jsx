@@ -15,14 +15,14 @@ const Vouchers = () => {
             <div>
                 <Banner></Banner>
             </div>
-            <div>
+            <div className='max-w-[1320px] mx-auto'>
                 <div role="tablist" className="tabs border-b border-[#FF5C2C] ">
                     <input type="radio" name="my_tabs_1" role="tab" className="tab text-[#FF5C2C] font-bold border-b border-[#FF5C2C] " aria-label="Billing History" defaultChecked />
-                    <div role="tabpanel" className="tab-content p-10 "> 
+                    <div role="tabpanel" className="tab-content  "> 
                         <BillingHistory></BillingHistory> 
                     </div>
 
-                    <input type="radio" name="my_tabs_1" role="tab" className="tab text-[#FF5C2C] font-bold border-b border-[#FF5C2C]" aria-label="Billing History"  />
+                    <input type="radio" name="my_tabs_1" role="tab" className="tab text-[#FF5C2C] font-bold border-b border-[#FF5C2C]" aria-label="Billing Information"  />
                     <div role="tabpanel" className="tab-content p-10">Tab content 1</div>
 
                     <input type="radio" name="my_tabs_1" role="tab" className="tab text-[#FF5C2C] font-bold border-b border-[#FF5C2C]" aria-label="Billing History"  />
