@@ -92,7 +92,7 @@ const Header = () => {
                   <img src={setting} alt="" />
                   <p>Manage Account</p>
                 </a>
-                <a className='flex'>
+                <a href='/findPuppy1' className='flex'>
                   <img src={order} alt="" />
                   <p>My Order</p>
                 </a>
