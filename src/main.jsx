@@ -29,6 +29,7 @@ import AddressBook from './Components/MyAccount/AddressBook.jsx';
 import MyPaymentOption from './Components/MyAccount/MyPaymentOption.jsx';
 import MyReturn from './Components/MyAccount/MyReturn.jsx';
 import MyCancelation from './Components/MyAccount/MyCanceletion.jsx';
+import MyReview from './Components/MyAccount/MyReview.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -110,6 +111,10 @@ const router = createBrowserRouter([
       {
         path: "/myCancelation",
         element: <MyCancelation></MyCancelation>
+      },
+      {
+        path: "/myReview",
+        element: <MyReview></MyReview>
       },
       
       {

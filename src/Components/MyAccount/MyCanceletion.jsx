@@ -31,14 +31,14 @@ const MyCancelation = () => {
                         </div>
                         <h4 className='mt-8 text-xl font-bold'>My Orders</h4>
                         <div className='mt-8'>
-                            <a href="/myReturn"><p className='mt-2 text-[#FF5C2C] font-bold'>My Returns</p></a>
-                            <a href="/myCancelation"><p className='mt-2 text-[#9da6b1] font-bold'>My Cancelation</p></a>
+                            <a href="/myReturn"><p className='mt-2 text-[#9da6b1] font-bold'>My Returns</p></a>
+                            <a href="/myCancelation"><p className='mt-2 text-[#FF5C2C] font-bold'>My Cancelation</p></a>
                         </div>
-                        <h4 className='mt-8 text-xl font-bold'>My Review</h4>
+                        <a href="/myReview"><h4 className='mt-8 text-xl font-bold'>My Review</h4></a>
                         <h4 className='mt-8 text-xl font-bold'>Sell with us</h4>
                     </div>
                     <div className='col-span-3 mt-7'>
-                        <h4 className='font-bold text-xl mb-3'>My Returns</h4>
+                        <h4 className='font-bold text-xl mb-3'>My Cancellation</h4>
                             <div className="overflow-x-auto">
                                 <table className="table">
                                     {/* head */}
@@ -58,14 +58,14 @@ const MyCancelation = () => {
                                             <td>12/10/23</td>
                                             <td><img src={item1} alt="" /></td>
                                             <td>$45.99</td>
-                                            <td className='text-[#FF5C2C]'>Returned</td>
+                                            <td className='text-[#FF5C2C]'>Canceled</td>
                                         </tr>
                                         <tr>
                                             <th>6423135631463123</th>
                                             <td>12/10/23</td>
                                             <td><img src={item1} alt="" /></td>
                                             <td>$45.99</td>
-                                            <td className='text-[#FF5C2C]'>Returned</td>
+                                            <td className='text-[#FF5C2C]'>Canceled</td>
                                         </tr>
                                         
                                     </tbody>
