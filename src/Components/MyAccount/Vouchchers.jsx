@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from '../Shared/Banner/Banner';
 import { useNavigate } from 'react-router-dom';
 import BillingHistory from './BillingHistory';
+import BillINformation from './BillINformation';
 
 
 const Vouchers = () => {
@@ -23,7 +24,9 @@ const Vouchers = () => {
                     </div>
 
                     <input type="radio" name="my_tabs_1" role="tab" className="tab text-[#FF5C2C] font-bold border-b border-[#FF5C2C]" aria-label="Billing Information"  />
-                    <div role="tabpanel" className="tab-content p-10">Tab content 1</div>
+                    <div role="tabpanel" className="tab-content ">
+                        <BillINformation></BillINformation>
+                    </div>
 
                     <input type="radio" name="my_tabs_1" role="tab" className="tab text-[#FF5C2C] font-bold border-b border-[#FF5C2C]" aria-label="Billing History"  />
                     <div role="tabpanel" className="tab-content p-10">Tab content 1</div>
