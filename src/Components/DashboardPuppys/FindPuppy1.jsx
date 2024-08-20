@@ -58,8 +58,8 @@ const FindPuppy1 = () => {
                     </div>
                     <div className='col-span-2'>
                         <div className='flex justify-between p-3 mt-6 items-center'>
-                            <p className='font-bold'>Showing 1-9 of 846 results</p>
-                            <button className='btn border border-[#FF5C2C] text-[#FF5C2C] rounded-3xl'>Add New</button>
+                            <p className='font-bold'>Showing 1-9 of 846 results</p> 
+                            <a href="/addPuppy"><button className='btn border border-[#FF5C2C] text-[#FF5C2C] rounded-3xl'>Add New</button></a>
                         </div>
                         <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                             <div className="card card-compact bg-base-100 shadow-2xl mb-4">
