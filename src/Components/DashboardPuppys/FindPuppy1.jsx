@@ -7,6 +7,10 @@ import shoppingCurt from '../../assets/image/dashboardPyppys/shopping-cart.png'
 import star from '../../assets/image/dashboardPyppys/star.png'
 
 import d1 from '../../assets/image/dashboardPyppys/d1.png'
+import d2 from '../../assets/image/dashboardPyppys/d2.png'
+import d3 from '../../assets/image/dashboardPyppys/d3.png'
+import d4 from '../../assets/image/dashboardPyppys/d4.png'
+import d5 from '../../assets/image/dashboardPyppys/d5.png'
 
 const FindPuppy1 = () => {
     return (
@@ -17,7 +21,7 @@ const FindPuppy1 = () => {
             <div className='max-w-[1320px] mx-auto'>
                 <div className='grid grid-cols-1 md:grid-cols-3'>
                     <div>
-                        <div className='flex flex-col space-y-10 mb-10'>
+                        <div className='flex flex-col gap-4 mb-10'>
                             <h1 className='text-3xl font-bold my-8'>Dashbord</h1>
                             <a href="">
                                 <div className='flex gap-2'>
@@ -61,7 +65,7 @@ const FindPuppy1 = () => {
                             <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                                 <figure className='relative'>
                                     <img src={d1} className='w-[400px] h-[260px]' />
-                                    <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
+                                    <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-8 p-1 rounded-md'> $ 225</p>
                                 </figure>
                                 <div className="card-body mb-0 pb-0">
                                     <h2 className="card-title text-2xl font-extrabold">American Water Spaniel</h2>
@@ -78,7 +82,7 @@ const FindPuppy1 = () => {
                             <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                                 <figure className='relative'>
                                     <img src={d2} className='w-[400px] h-[260px]' />
-                                    <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
+                                    <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-8 p-1 rounded-md'> $ 225</p>
                                 </figure>
                                 <div className="card-body mb-0 pb-0">
                                     <h2 className="card-title text-2xl font-extrabold">American Water Spaniel</h2>
@@ -95,7 +99,7 @@ const FindPuppy1 = () => {
                             <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                                 <figure className='relative'>
                                     <img src={d3} className='w-[400px] h-[260px]' />
-                                    <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
+                                    <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-8 p-1 rounded-md'> $ 225</p>
                                 </figure>
                                 <div className="card-body mb-0 pb-0">
                                     <h2 className="card-title text-2xl font-extrabold">American Water Spaniel</h2>
@@ -112,7 +116,7 @@ const FindPuppy1 = () => {
                             <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                                 <figure className='relative'>
                                     <img src={d4} className='w-[400px] h-[260px]' />
-                                    <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
+                                    <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-8 p-1 rounded-md'> $ 225</p>
                                 </figure>
                                 <div className="card-body mb-0 pb-0">
                                     <h2 className="card-title text-2xl font-extrabold">American Water Spaniel</h2>
@@ -129,7 +133,7 @@ const FindPuppy1 = () => {
                             <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                                 <figure className='relative'>
                                     <img src={d5} className='w-[400px] h-[260px]' />
-                                    <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
+                                    <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-8 p-1 rounded-md'> $ 225</p>
                                 </figure>
                                 <div className="card-body mb-0 pb-0">
                                     <h2 className="card-title text-2xl font-extrabold">American Water Spaniel</h2>
@@ -146,7 +150,7 @@ const FindPuppy1 = () => {
                             <div className="card card-compact bg-base-100 shadow-2xl mb-4">
                                 <figure className='relative'>
                                     <img src={d1} className='w-[400px] h-[260px]' />
-                                    <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-4 md:left-4 p-1 rounded-md'> $ 225</p>
+                                    <p className='bg-[#E5734F] text-white font-bold absolute top-3 left-10 md:top-8 md:left-4 p-1 rounded-md'> $ 225</p>
                                 </figure>
                                 <div className="card-body mb-0 pb-0">
                                     <h2 className="card-title text-2xl font-extrabold">American Water Spaniel</h2>
