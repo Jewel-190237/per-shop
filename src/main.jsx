@@ -35,6 +35,7 @@ import FindPuppy1 from './Components/DashboardPuppys/FindPuppy1.jsx';
 import AddPuppy from './Components/DashboardPuppys/AddPyppy.jsx';
 import PuppyService from './Components/DashboardPuppys/PuppyService.jsx';
 import Overview1 from './Components/DashboardPuppys/Overview1.jsx';
+import OverView2 from './Components/DashboardPuppys/OverView2.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -140,6 +141,10 @@ const router = createBrowserRouter([
       {
         path: "/overView1",
         element: <Overview1></Overview1>
+      },
+      {
+        path: "/overView2",
+        element: <OverView2></OverView2>
       },
       {
         path: "/contact",
