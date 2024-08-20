@@ -7,20 +7,6 @@ body {
   height: 100%;
 }
 
-/* body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-} */
-
-.swiper {
-  width: 100%;
-  height: 100%;
-}
-
 .swiper-slide {
   width: 100%;
   height: 100%;
@@ -43,10 +29,6 @@ body {
   /* border: 3px solid brown; */
 }
 
-/* body {
-  background: #000;
-  color: #000;
-} */
 
 .swiper {
   width: 100%;
@@ -55,10 +37,6 @@ body {
   margin-right: auto;
 }
 
-.swiper-slide {
-  background-size: cover;
-  background-position: center;
-}
 
 .mySwiper2 {
   height: 100%;
@@ -74,16 +52,12 @@ body {
 .mySwiper .swiper-slide {
   width: 100%;
   height: 100%;
-  opacity: 0.4;
+  opacity: 0.4!important;
+
 }
 
 .mySwiper .swiper-slide-thumb-active {
-  opacity: 1;
+  opacity: 1!important;
 }
 
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover!important
-}
+

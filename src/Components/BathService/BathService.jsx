@@ -46,8 +46,9 @@ const BathService = () => {
                 <div className='text-center'>
                     <li className=" outline-none btn mt-1 mb-4 rounded-3xl bg-[#FF5C2C] text-white font-bold text-center"> Find Pussy</li>
                 </div>
-                <div className='absolute -top-28 md:-top-72 lg:-top-72 left-32 lg:left-96'>
-                    <img className='w-1/2 md:w-4/5' src={cutePussy} alt="" />
+                <div className=''>
+
+                    <img className='w-60 md:w-80 lg:w-96 absolute bottom-64 md:bottom-48 right-2 md:right-60  lg:right-96' src={cutePussy} alt="" />
                 </div>
             </div>
             <div>

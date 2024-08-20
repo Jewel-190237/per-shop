@@ -41,7 +41,7 @@ const FindPuppy1 = () => {
                                     <h1 className='text-xl font-bold '>Services</h1>
                                 </div>
                             </a>
-                            <a href="">
+                            <a href="/findPuppy1">
                                 <div className='flex gap-2'>
                                     <img src={shoppingCurt} alt="" className='' />
                                     <h1 className='text-xl font-bold '>Products</h1>

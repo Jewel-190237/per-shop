@@ -14,16 +14,35 @@ import PuppiesProduct from './Components/Product/PuppiesProduct/PuppiesProduct.j
 import OurShop from './Components/OurShop/OurShop.jsx';
 import Appoinment from './Components/Appointment/Appoinment.jsx';
 import AboutMe from './Components/Appointment/AboutMe.jsx';
-import Contact from './Components/Contact/Contact.jsx';
+import FindPuppy from './Components/FindPuppy/FindPuppy.jsx';
+import FirstCart from './Components/AllCart/FirstCart/FirstCart.jsx';
+import Checkout from './Components/AllCart/Checkout/Checkout.jsx';
+import ProcessPayment from './Components/AllCart/ProcessPayment/ProcessPayment.jsx';
+import AnotherPayment from './Components/AllCart/AnotherPayment/AnotherPayment.jsx';
+import PaymentMethod from './Components/AllCart/PaymentMethod/PaymentMethod.jsx';
+import CompleteCard from './Components/AllCart/CompleteCard/CompleteCard.jsx';
+import Trainer from './Components/Trainer/Trainer.jsx';
 import PussyService from './Components/PussyService/PussyService.jsx';
 import BathService from './Components/BathService/BathService.jsx';
-import Trainer from './Components/Trainer/Trainer.jsx';
-import SingleShop from './Components/singleShop/singleShop.jsx';
-import Review from './Components/Review/Review.jsx';
-import Payment from './Components/Payment/Payment.jsx';
-import Payment2 from './Components/Payment/Payment2.jsx';
 import Payment3 from './Components/Payment/Payment3.jsx';
-import ManageAccount1 from './Components/MyAccount/ManageAccount1.jsx';
+import Payment2 from './Components/Payment/Payment2.jsx';
+import Payment from './Components/Payment/Payment.jsx';
+import Contact from './Components/Contact/Contact.jsx';
+import Review from './Components/Review/Review.jsx';
+import SingleShop from './Components/singleShop/singleShop.jsx';
+import MyAccount1 from './Components/Authentication/MyAccount/MyAccount1.jsx';
+import SignIn from './Components/Authentication/MyAccount/SignIn.jsx';
+import ForgetPassword from './Components/Authentication/MyAccount/ForgetPassword.jsx';
+import ResetPassword from './Components/Authentication/MyAccount/ResetPassword.jsx';
+import ResetAgainPassword from './Components/Authentication/MyAccount/ResetAgainPassword.jsx';
+import Verified from './Components/Authentication/MyAccount/Verified.jsx';
+import ManageMyAccount from './Components/FindTrainer/ManageMyAccount.jsx';
+import EditPersonal from './Components/FindTrainer/EditPersonal.jsx';
+import DashboardServices from './Components/DashbordServices/DashboardServices.jsx';
+import AddNewForm from './Components/DashbordServices/AddNewForm.jsx';
+import DashboardReviews from './Components/DashBoardReviews/DashboardReviews.jsx';
+import ManageAccount1 from './Components/MyAccount/ManageAccount1.jsx'
+// import ManageAccount1 from './Components/MyAccount/ManageAccount1.jsx';
 import MyProfile from './Components/MyAccount/MyProfile.jsx';
 import AddressBook from './Components/MyAccount/AddressBook.jsx';
 import MyPaymentOption from './Components/MyAccount/MyPaymentOption.jsx';
@@ -32,6 +51,7 @@ import MyCancelation from './Components/MyAccount/MyCanceletion.jsx';
 import MyReview from './Components/MyAccount/MyReview.jsx';
 import Vouchers from './Components/MyAccount/Vouchchers.jsx';
 import FindPuppy1 from './Components/DashboardPuppys/FindPuppy1.jsx';
+// import FindPuppy1 from './Components/D'
 import AddPuppy from './Components/DashboardPuppys/AddPyppy.jsx';
 import PuppyService from './Components/DashboardPuppys/PuppyService.jsx';
 import Overview1 from './Components/DashboardPuppys/Overview1.jsx';
@@ -39,6 +59,7 @@ import OverView2 from './Components/DashboardPuppys/OverView2.jsx';
 import OverView3 from './Components/DashboardPuppys/OverView3.jsx';
 import OverView4 from './Components/DashboardPuppys/OverView4.jsx';
 import OverView5 from './Components/DashboardPuppys/OverView5.jsx';
+// import FindPuppy1 from './Components/DashboardPuppys/FindPuppy1.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -55,15 +76,52 @@ const router = createBrowserRouter([
       },
       {
         path: "/appointment",
-        element: <Appoinment/>,
+        element: <Appoinment />,
       },
       {
         path: "/appointmentMe",
-        element: <AboutMe/>,
+        element: <AboutMe />,
+      },
+      {
+        path: "/shoppingCart",
+        element: <FirstCart />,
+      },
+      {
+        path: "/checkout",
+        element: <Checkout />,
+      },
+      {
+        path: "/process",
+        element: <ProcessPayment />,
+      },
+      {
+        path: "/anotherProcess",
+        element: <AnotherPayment />,
+      },
+      {
+        path: "/paymentMethod",
+        element: <PaymentMethod />,
+      },
+      {
+        path: "/completeCard",
+        element: <CompleteCard />,
       },
       {
         path: "/ourShop",
         element: <OurShop />,
+      },
+      {
+        path: "/findPuppy2",
+        element: <FindPuppy />,
+      },
+
+      {
+        path: "/services",
+        element: <ServicesPupies></ServicesPupies>,
+      },
+      {
+        path: "/puppyProducts",
+        element: <PuppiesProduct></PuppiesProduct>,
       },
       {
         path: "/pussyService",
@@ -74,7 +132,7 @@ const router = createBrowserRouter([
         element: <BathService></BathService>
       },
       {
-        path: "/trainer",
+        path: '/trainer',
         element: <Trainer></Trainer>
       },
       {
@@ -96,6 +154,61 @@ const router = createBrowserRouter([
       {
         path: "/payment3",
         element: <Payment3></Payment3>
+      },
+
+      {
+        path: "/contact",
+        element: <Contact></Contact>,
+      },
+
+      //updated after collaboration 
+      {
+        path: "/register",
+        element: <MyAccount1></MyAccount1>,
+      },
+      {
+        path: "/signIn",
+        element: <SignIn></SignIn>,
+      },
+      {
+        path: "/forget",
+        element: <ForgetPassword></ForgetPassword>,
+      },
+      {
+        path: "/reset",
+        element: <ResetPassword></ResetPassword>,
+      },
+      {
+        path: "/resetAgain",
+        element: <ResetAgainPassword></ResetAgainPassword>,
+      },
+      {
+        path: "/verified",
+        element: <Verified></Verified>,
+      },
+
+      //find trainer
+      {
+        path: "/findTrainer",
+        element: <ManageMyAccount></ManageMyAccount>,
+      },
+      {
+        path: "/editPersonal",
+        element: <EditPersonal></EditPersonal>,
+      },
+      //dashbord servics
+
+      {
+        path: "/dashbordServices",
+        element: <DashboardServices></DashboardServices>,
+      },
+      {
+        path: "/addNewForm",
+        element: <AddNewForm></AddNewForm>,
+      },
+      {
+        path: "/dashbordReview",
+        element: <DashboardReviews></DashboardReviews>,
       },
       {
         path: "/manageAccount1",
@@ -161,25 +274,16 @@ const router = createBrowserRouter([
         path: "/overView5",
         element: <OverView5></OverView5>
       },
-      {
-        path: "/contact",
-        element: <Contact></Contact>,
-      },
-    
-      {
-        path: "/services",
-        element: <ServicesPupies></ServicesPupies>,
-      },
-      {
-        path: "/puppyProducts",
-        element: <PuppiesProduct></PuppiesProduct>,
-      },
+
+
+
+
     ],
   },
 ]);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-     <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </StrictMode>,
 )

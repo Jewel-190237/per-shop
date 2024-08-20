@@ -26,7 +26,7 @@ import './styles.css';
 import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
 
 
-const singleShop = () => {
+const SingleShop = () => {
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
     return (
@@ -290,4 +290,4 @@ const singleShop = () => {
     );
 };
 
-export default singleShop;
+export default SingleShop;
