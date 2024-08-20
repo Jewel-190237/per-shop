@@ -33,6 +33,7 @@ import MyReview from './Components/MyAccount/MyReview.jsx';
 import Vouchers from './Components/MyAccount/Vouchchers.jsx';
 import FindPuppy1 from './Components/DashboardPuppys/FindPuppy1.jsx';
 import AddPuppy from './Components/DashboardPuppys/AddPyppy.jsx';
+import PuppyService from './Components/DashboardPuppys/PuppyService.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -130,6 +131,10 @@ const router = createBrowserRouter([
       {
         path: "/addPuppy",
         element: <AddPuppy></AddPuppy>
+      },
+      {
+        path: "/ServicePuppyDashboard",
+        element: <PuppyService></PuppyService>
       },
       {
         path: "/contact",

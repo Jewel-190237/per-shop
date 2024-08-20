@@ -6,3 +6,8 @@
   max-width: 1320px;
   margin: auto;
 }
+
+/* .ant-upload-list-item-container{
+  @apply !h-[300px] !w-[200px]
+ 
+} */

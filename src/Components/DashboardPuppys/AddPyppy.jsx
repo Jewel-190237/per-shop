@@ -95,7 +95,7 @@ const AddPuppy = () => {
             <div>
                 <Banner></Banner>
             </div>
-            <div className='max-w-[1320px] bg-[#FF5C2C1A] rounded-lg p-4 mt-40'>
+            <div className='max-w-[1320px] bg-[#FF5C2C1A] rounded-lg p-4 mt-40 mb-10'>
                 <div className='mt-5'>
                     <input className='border w-2/3 border-[#FF5C2C] p-3 rounded-lg bg-[#FF5C2C1A]' type="text" placeholder='Brand Name' />
                 </div>
@@ -168,7 +168,7 @@ const AddPuppy = () => {
                 </div>
                 <div className='mt-10'>
                     <p className='font-bold my-2'>Image Upload</p>
-                    <div className='flex justify-between'>
+                    <div className='flex justify-center gap-8'>
                         <Upload
                             action="https://660d2bd96ddfa2943b33731c.mockapi.io/api/upload"
                             listType="picture-card"
@@ -180,9 +180,11 @@ const AddPuppy = () => {
                         </Upload>
                         {previewImage && (
                             <Image
-                                wrapperStyle={{
-                                    display: 'none',
-                                }}
+                            width={500}
+                            className='!h-[30px] !w-[30px]'
+                                // wrapperStyle={{
+                                //     display: 'none',
+                                // }}
                                 preview={{
                                     visible: previewOpen,
                                     onVisibleChange: (visible) => setPreviewOpen(visible),
@@ -207,6 +209,10 @@ const AddPuppy = () => {
                             </p>
                         </Dragger>
                     </div>
+                </div>
+                <div className='flex justify-between'>
+                    <div></div>
+                    <a href="/ServicePuppyDashboard"><button className='btn bg-[#FF5C2C] text-white rounded-3xl'>Continue</button>                    </a>
                 </div>
             </div>
         </section>
