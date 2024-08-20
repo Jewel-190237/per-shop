@@ -17,15 +17,17 @@ import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
 
-import './styles.css';
+import './styles.css'
 
 // import required modules
 import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
+import { useNavigate } from 'react-router-dom'
 
 
 
 const Review = () => {
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
+    const navigate = useNavigate();
 
     return (
         <section>
@@ -45,7 +47,7 @@ const Review = () => {
                             className="mySwiper2"
                         >
                             <SwiperSlide>
-                                <img  src={sliderPicture} />
+                                <img className='w-full' src={sliderPicture} />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img src={sliderPicture} />
@@ -82,7 +84,7 @@ const Review = () => {
                         >
 
                             <SwiperSlide>
-                                <img src={sliderPicture} />
+                                <img className='w-full' src={sliderPicture} />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img src={sliderPicture} />
@@ -129,10 +131,10 @@ const Review = () => {
                             </ul>
                         </div>
                         <div className='text-center mt-8'>
-                            <li className="btn mt-1 w-full rounded-3xl bg-[#FF5C2C] text-white font-bold"> Order Now</li>
+                            <button  className="btn mt-1 w-full rounded-3xl bg-[#FF5C2C] text-white font-bold"> Order Now</button>
                         </div>
                         <div className='text-center mt-8'>
-                            <li className="btn mt-1 w-full bg-none rounded-3xl border border-[#FF5C2C] text-black font-bold"> Contact Trainer</li>
+                        <button onClick={ ()=> navigate('/contact')} className="btn mt-1 w-full bg-none rounded-3xl border border-[#FF5C2C] text-black font-bold"> Contact Trainer</button>
                         </div>
                     </div>
                 </div>

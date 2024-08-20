@@ -7,7 +7,7 @@ const ManageAccount1 = () => {
     return (
         <section>
             <Banner></Banner>
-            <div className='max-w-[1320] mx-auto'>
+            <div className='max-w-[1320px] mx-auto'>
                 <div className='grid grid-cols-2 md:grid-cols-4 p-3 mt-32 gap-8'>
                     <div>
                         <h4 className='text-xl font-bold'>Hello, Leton Nondi</h4>

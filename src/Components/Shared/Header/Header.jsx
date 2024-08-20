@@ -1,6 +1,8 @@
 
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+import { DownOutlined } from '@ant-design/icons';
+import { Dropdown, Space } from 'antd';
 import setting from '../../../assets/image/accountManagement/Setting.png'
 import bill from '../../../assets/image/accountManagement/Wallet.png'
 import order from '../../../assets/image/accountManagement/My Order.png'
@@ -8,29 +10,62 @@ import address from '../../../assets/image/accountManagement/Location.png'
 import logout from '../../../assets/image/accountManagement/Logout.png'
 
 const Header = () => {
+  const items = [
+    {
+      label: <NavLink to='/findPuppy'>Find Puppy</NavLink>,
+      key: '0',
+    },
+    {
+      label: <NavLink to='/findPuppy2'>Find Puppy 2</NavLink>,
+      key: '1',
+    },
+  ];
+  const items1 = [
+    {
+      label: <NavLink to='/pussyService'>Pussy Service</NavLink>,
+      key: '0',
+    },
+    {
+      label: <NavLink to='/bathService'>Bath Service</NavLink>,
+      key: '1',
+    },
+    {
+      label: <NavLink to="/trainer">Trainer</NavLink>,
+      key: '3',
+    },
+  ];
   const navLinks = (
     <>
       <li className='text-[#FF5C2C]'>
         <NavLink to='/'>Home</NavLink>
       </li>
       <li>
-        <details>
-          <summary>Pets</summary>
-          <ul className="p-2">
-            <li><NavLink to='/findPuppy'>Find Puppy</NavLink></li>
-            <li><NavLink to='/pets/submenu2'>Submenu 2</NavLink></li>
-          </ul>
-        </details>
+        <Dropdown
+          menu={{
+            items
+          }}
+          trigger={['click']}
+        >
+          <a onClick={(e) => e.preventDefault()}>
+            <Space>
+              Pets
+              <DownOutlined />
+            </Space>
+          </a>
+        </Dropdown>
       </li>
       <li>
-        <details>
-          <summary>Services</summary>
-          <ul className="p-2">
-            <li><NavLink to='/pussyService'>Pussy Service</NavLink></li>
-            <li><NavLink to='/bathService'>Bath Service</NavLink></li>
-            <li><NavLink to='/trainer'>Trainer</NavLink></li>
-          </ul>
-        </details>
+        <Dropdown
+          menu={{items: items1}}
+          trigger={['click']}
+        >
+          <a onClick={(e) => e.preventDefault()}>
+            <Space>
+              Services
+              <DownOutlined />
+            </Space>
+          </a>
+        </Dropdown>
       </li>
       <li>
         <NavLink to='/ourShop'>Products</NavLink>
@@ -75,15 +110,15 @@ const Header = () => {
         </ul>
       </div>
       <div className="navbar-end flex items-center">
-        <a className='mr-6'><img src="/src/assets/image/NavIcon/Cart.png" alt="Cart" /></a>
-        <a className="btn rounded-3xl text-[#C9C3C1] flex items-center">
+        <Link to='/shoppingCart'><img src="/src/assets/image/NavIcon/Cart.png" alt="Cart" /></Link>
+        <Link to='/register'><a className="btn rounded-3xl text-[#C9C3C1] flex items-center">
           <img className='mr-2' src="/src/assets/image/NavIcon/user.png" alt="User" /> <span className='hidden sm:inline'>Login/Register</span>
-        </a>
+        </a></Link>
         {/* <a className="btn rounded-3xl bg-[#FF5C2C] text-white font-bold  items-center hidden  sm:flex">
           <img className='mr-2' src="/src/assets/image/NavIcon/Utube.png" alt="How it Works" /> How It Works
         </a> */}
         <a className=" p-3 rounded-3xl bg-[#FF5C2C] text-white font-bold  items-center hidden  sm:flex">
-          <img className='mr-2' src="/src/assets/image/NavIcon/Utube.png" alt="How it Works" />
+          <img className='mr-2' src="/src/assets/image/NavIcon/Utube.png    " alt="How it Works" />
           <div className="dropdown dropdown-end">
             <div tabIndex={0} role="button" className=" m-1 rounded-3xl bg-[#FF5C2C] text-white font-bold">How it works</div>
             <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
@@ -111,7 +146,7 @@ const Header = () => {
               </li>
             </ul>
           </div>
-        </a>
+        </a>
       </div>
     </div>
   );

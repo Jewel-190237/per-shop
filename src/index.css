@@ -6,8 +6,10 @@
   max-width: 1320px;
   margin: auto;
 }
-
-/* .ant-upload-list-item-container{
-  @apply !h-[300px] !w-[200px]
- 
-} */
+.ant-tabs .ant-tabs-ink-bar {
+  background:  red!important;
+  
+}
+.ant-select-outlined {
+  border-color:  red!important;
+}
