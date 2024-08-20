@@ -45,7 +45,7 @@ const Review = () => {
                             className="mySwiper2"
                         >
                             <SwiperSlide>
-                                <img className='w-full' src={sliderPicture} />
+                                <img  src={sliderPicture} />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img src={sliderPicture} />
@@ -82,7 +82,7 @@ const Review = () => {
                         >
 
                             <SwiperSlide>
-                                <img className='w-full' src={sliderPicture} />
+                                <img src={sliderPicture} />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img src={sliderPicture} />
