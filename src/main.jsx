@@ -32,6 +32,7 @@ import MyCancelation from './Components/MyAccount/MyCanceletion.jsx';
 import MyReview from './Components/MyAccount/MyReview.jsx';
 import Vouchers from './Components/MyAccount/Vouchchers.jsx';
 import FindPuppy1 from './Components/DashboardPuppys/FindPuppy1.jsx';
+import AddPuppy from './Components/DashboardPuppys/AddPyppy.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -125,6 +126,10 @@ const router = createBrowserRouter([
       {
         path: "/findPuppy1",
         element: <FindPuppy1></FindPuppy1>
+      },
+      {
+        path: "/addPuppy",
+        element: <AddPuppy></AddPuppy>
       },
       {
         path: "/contact",
