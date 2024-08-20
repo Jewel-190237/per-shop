@@ -180,8 +180,8 @@ const AddPuppy = () => {
                         </Upload>
                         {previewImage && (
                             <Image
-                            width={500}
-                            className='!h-[30px] !w-[30px]'
+                                width={500}
+                                className='!h-[30px] !w-[30px]'
                                 // wrapperStyle={{
                                 //     display: 'none',
                                 // }}
@@ -214,6 +214,8 @@ const AddPuppy = () => {
                     <div></div>
                     <a href="/ServicePuppyDashboard"><button className='btn bg-[#FF5C2C] text-white rounded-3xl'>Continue</button>                    </a>
                 </div>
+
+                
             </div>
         </section>
     );
