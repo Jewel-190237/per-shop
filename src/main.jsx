@@ -34,6 +34,7 @@ import Vouchers from './Components/MyAccount/Vouchchers.jsx';
 import FindPuppy1 from './Components/DashboardPuppys/FindPuppy1.jsx';
 import AddPuppy from './Components/DashboardPuppys/AddPyppy.jsx';
 import PuppyService from './Components/DashboardPuppys/PuppyService.jsx';
+import Overview1 from './Components/DashboardPuppys/Overview1.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -135,6 +136,10 @@ const router = createBrowserRouter([
       {
         path: "/ServicePuppyDashboard",
         element: <PuppyService></PuppyService>
+      },
+      {
+        path: "/overView1",
+        element: <Overview1></Overview1>
       },
       {
         path: "/contact",
