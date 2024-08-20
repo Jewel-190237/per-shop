@@ -264,7 +264,6 @@ const OverView2 = () => {
                         <div></div>
                         <a href="/overView3"><button className='btn bg-[#FF5C2C] text-white rounded-3xl'>Continue</button>                    </a>
                     </div>
-
                 </div>
             </div>
 
