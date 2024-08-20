@@ -8,7 +8,7 @@ const PuppyService = () => {
             <div>
                 <div className='max-w-[1320px] mx-auto flex justify-between p-5 mb-10'>
                     <div></div>
-                    <a href="/"><button className='btn bg-[#FF5C2C] text-white rounded-3xl'>Continue</button>                    </a>
+                    <a href="/overView1"><button className='btn bg-[#FF5C2C] text-white rounded-3xl'>Continue</button>                    </a>
                 </div>
             </div>
         </div>
