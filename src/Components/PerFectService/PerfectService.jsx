@@ -15,7 +15,7 @@ const PerfectService = () => {
                 navigation={true}
                 loop={true}
                 modules={[Navigation]}
-                // className='!h-[400px] !w-full'
+                className='!h-[800px] md:-[400px] !w-full'
             >
                 {
                     [1, 2, 3, 4, 5, 6].map(index => (

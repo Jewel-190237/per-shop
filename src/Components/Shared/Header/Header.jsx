@@ -56,7 +56,7 @@ const Header = () => {
       </li>
       <li>
         <Dropdown
-          menu={{items: items1}}
+          menu={{ items: items1 }}
           trigger={['click']}
         >
           <a onClick={(e) => e.preventDefault()}>
@@ -110,14 +110,14 @@ const Header = () => {
         </ul>
       </div>
       <div className="navbar-end flex items-center">
-        <Link to='/shoppingCart'><img src="/src/assets/image/NavIcon/Cart.png" alt="Cart" /></Link>
-        <Link to='/register'><a className="btn rounded-3xl text-[#C9C3C1] flex items-center">
-          <img className='mr-2' src="/src/assets/image/NavIcon/user.png" alt="User" /> <span className='hidden sm:inline'>Login/Register</span>
+        <Link className='mr-4' to='/shoppingCart'><img src="/src/assets/image/NavIcon/Cart.png" alt="Cart" /></Link>
+        <Link className='p-3' to='/register'><a className="btn rounded-3xl text-[#C9C3C1] flex items-center">
+          <img className='mr-4' src="/src/assets/image/NavIcon/user.png" alt="User" /> <span className='hidden sm:inline '>Login/Register</span>
         </a></Link>
         {/* <a className="btn rounded-3xl bg-[#FF5C2C] text-white font-bold  items-center hidden  sm:flex">
           <img className='mr-2' src="/src/assets/image/NavIcon/Utube.png" alt="How it Works" /> How It Works
         </a> */}
-        <a className=" p-3 rounded-3xl bg-[#FF5C2C] text-white font-bold  items-center hidden  sm:flex">
+        <a className="p-3 rounded-3xl bg-[#FF5C2C] text-white font-bold  items-center hidden  sm:flex">
           <img className='mr-2' src="/src/assets/image/NavIcon/Utube.png    " alt="How it Works" />
           <div className="dropdown dropdown-end">
             <div tabIndex={0} role="button" className=" m-1 rounded-3xl bg-[#FF5C2C] text-white font-bold">How it works</div>
@@ -146,7 +146,7 @@ const Header = () => {
               </li>
             </ul>
           </div>
-        </a>
+        </a>
       </div>
     </div>
   );
