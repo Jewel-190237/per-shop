@@ -2,7 +2,7 @@ import React from 'react';
 
 const HealthService = () => {
     return (
-        <section className='max-w-6xl mx-auto'>
+        <section className='max-w-[1320px] mx-auto'>
             <div className='flex justify-center md:justify-end gap-8 font-bold mr-10'>
                 <a className='text-[#61D5DF]' href=""><u>For Dog</u></a>
                 <a href="">For Cat</a>
@@ -21,7 +21,7 @@ const HealthService = () => {
                             <p className='font-bold'>Play</p>
                         </div>
                         <div className='flex gap-2 items-center'>
-                            <img src="/src/assets/image/Health/i3.png"alt="" />
+                            <img src="/src/assets/image/Health/i3.png" alt="" />
                             <p className='font-bold'>Bath</p>
                         </div>
                         <div className='flex gap-2 items-center'>
@@ -33,13 +33,13 @@ const HealthService = () => {
                     <li className="btn mt-8 rounded-3xl bg-[#FF5C2C] text-white font-bold p-4 ml-40 md:ml-0">Book Appointment </li>
 
                 </div>
-                <div className='flex-1 relative'>
+                <div className='flex-1 relative mb-10 md:mb-0'>
                     <div className='absolute left-20 md:left-14 top-16 md:-bottom-48 rounded-3xl w-4/6 md:w-5/6 h-24 md:h-48 bg-[#F9A6AC]'>
                         <br />
                     </div>
                     <img className='absolute top-4 md:-bottom-32 left-36 md:left-28 w-2/5 md:w-2/3' src="/src/assets/image/Health/girl.png" alt="" />
                     <img className='absolute hidden md:flex -top-1 -right-14' src="/src/assets/image/Health/left.png" alt="" />
-                            <img className='absolute hidden md:flex top-52 -left-4 rotate-180' src="/src/assets/image/Health/right.png" alt="" />
+                    <img className='absolute hidden md:flex top-52 -left-4 rotate-180' src="/src/assets/image/Health/right.png" alt="" />
                 </div>
             </div>
         </section>
